@@ -79,7 +79,7 @@ if (fs_file_exists(dirname(__FILE__) . "/config.php")) {
 */
 if (empty($gallery->app->skipRegisterGlobals) || $gallery->app->skipRegisterGlobals != "yes") {
     $register_globals = @ini_get('register_globals');
-    if (!empty($register_globals) && !eregi("no|off|false", $register_globals)) {
+    if (!empty($register_globals) && !preg_match("/no|off|false/i", $register_globals)) {
         foreach (array_keys($_REQUEST) as $key) {
             unset($$key);
         }
@@ -130,14 +130,14 @@ if (isset($gallery->app->devMode) && $gallery->app->devMode == 'yes') {
 if(isset($gallery->app)) {
     if (isset($_SERVER["HTTPS"] ) && stristr($_SERVER["HTTPS"], "on")) {
         $gallery->app->photoAlbumURL =
-            eregi_replace("^http:", "https:", $gallery->app->photoAlbumURL);
+            preg_replace("/^http:/i", "https:", $gallery->app->photoAlbumURL);
         $gallery->app->albumDirURL =
-            eregi_replace("^http:", "https:", $gallery->app->albumDirURL);
+            preg_replace("/^http:/i", "https:", $gallery->app->albumDirURL);
     } else {
         $gallery->app->photoAlbumURL =
-            eregi_replace("^https:", "http:", $gallery->app->photoAlbumURL);
+            preg_replace("/^https:/i", "http:", $gallery->app->photoAlbumURL);
         $gallery->app->albumDirURL =
-            eregi_replace("^https:", "http:", $gallery->app->albumDirURL);
+            preg_replace("/^https:/i", "http:", $gallery->app->albumDirURL);
     }
 
     /*
@@ -160,7 +160,9 @@ if(isset($gallery->app)) {
  * Turn off magic quotes runtime as they interfere with saving and
  * restoring data from our file-based database files
 */
-set_magic_quotes_runtime(0);
+if(get_magic_quotes_runtime()) {
+    set_magic_quotes_runtime(false);
+}
 
 /* Load classes and session information
  * Note: Some classes and libs are loaded in util.php
