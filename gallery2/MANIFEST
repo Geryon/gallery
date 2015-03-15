@@ -1,0 +1,479 @@
+# File crc32 crc32(crlf) size size(crlf)  or  R File
+LICENSE	3778559985	3184057198	18011	18351
+README.html	2268084508	3690182379	73792	75884
+bootstrap.inc	612002498	124969522	1966	2016
+docs/DEVELOPER_GUIDELINES	1686673481	4170020250	2558	2615
+docs/EMBEDDING	262208611	118453713	8188	8343
+embed.php	1034084494	247734759	1493	1529
+images/g2Logo.gif	1196739865	1196739865	6395	6395
+images/gallery.gif	2220981207	2220981207	1180	1180
+images/galleryLogo_sm.gif	1166401692	1166401692	3488	3488
+images/galleryLogo_sm.png	1945861746	1945861746	10222	10222
+images/xhtml10.png	1165418597	1165418597	321	321
+index.php	1608988874	1125088102	1843	1892
+init.inc	2726326320	3835051766	7316	7513
+install/GalleryStub.class	1777183946	73876131	1224	1262
+install/InstallStep.class	3099617679	3422761660	2415	2524
+install/StatusTemplate.class	2320145545	2989525975	3330	3433
+install/config.php-template	495021817	495002571	7373	7546
+install/images/background.png	2766840926	2766840926	23329	23329
+install/images/btnBGbl.gif	162020977	162020977	172	172
+install/images/btnBGgrn.gif	921048166	921048166	173	173
+install/images/btnBGor.gif	3886118901	3886118901	173	173
+install/images/btnBLbl.gif	929171289	929171289	172	172
+install/images/btnBLgrn.gif	676576556	676576556	171	171
+install/images/btnBLor.gif	3122183424	3122183424	172	172
+install/images/btnBRbl.gif	3553759478	3553759478	172	172
+install/images/btnBRgrn.gif	1593520250	1593520250	172	172
+install/images/btnBRor.gif	2239040372	2239040372	172	172
+install/images/btnTLbl.gif	752510677	752510677	171	171
+install/images/btnTLgrn.gif	1620552182	1620552182	171	171
+install/images/btnTLor.gif	1764133389	1764133389	171	171
+install/images/btnTRbl.gif	3306389985	3306389985	169	169
+install/images/btnTRgrn.gif	1466176462	1466176462	169	169
+install/images/btnTRor.gif	3506895090	3506895090	170	170
+install/images/g2Logo_install_head.png	2360733490	2360733490	13674	13674
+install/images/ico_error.gif	3087634832	3087634832	1608	1608
+install/images/ico_success.gif	1603034537	1603034537	1629	1629
+install/images/ico_warning.gif	3081259453	3081259453	1589	1589
+install/index.php	2617066649	1969637367	9033	9346
+install/locale/bg/LC_MESSAGES/gallery2_install.mo	3707794914	3707794914	32848	32848
+install/locale/cs/LC_MESSAGES/gallery2_install.mo	1859030854	1859030854	50178	50178
+install/locale/de/LC_MESSAGES/gallery2_install.mo	541968116	541968116	54673	54673
+install/locale/eu/LC_MESSAGES/gallery2_install.mo	419626705	419626705	46182	46182
+install/locale/fr/LC_MESSAGES/gallery2_install.mo	1729826515	1729826515	54781	54781
+install/locale/it/LC_MESSAGES/gallery2_install.mo	1341174148	1341174148	49532	49532
+install/locale/ja/LC_MESSAGES/gallery2_install.mo	622135213	622135213	28144	28144
+install/locale/lt/LC_MESSAGES/gallery2_install.mo	1375766935	1375766935	50779	50779
+install/locale/nl/LC_MESSAGES/gallery2_install.mo	2751347523	2751347523	49834	49834
+install/locale/ru/LC_MESSAGES/gallery2_install.mo	3762175790	3762175790	72342	72342
+install/locale/sr/LC_MESSAGES/gallery2_install.mo	1296309473	1296309473	47113	47113
+install/locale/tr/LC_MESSAGES/gallery2_install.mo	2036756465	2036756465	20485	20485
+install/locale/vi/LC_MESSAGES/gallery2_install.mo	344301071	344301071	52501	52501
+install/locale/zh_TW/LC_MESSAGES/gallery2_install.mo	3057058796	3057058796	47494	47494
+install/po/GNUmakefile	131239173	1173653828	126	132
+install/po/bg.po	955284649	99851436	46461	47709
+install/po/cs.po	1269007603	2103095625	52709	54008
+install/po/de.po	896098628	2890738258	57391	58765
+install/po/eu.po	2333355701	20823719	52162	53479
+install/po/fr.po	1388257841	2271047041	57919	59279
+install/po/it.po	1354792640	299292673	54588	55938
+install/po/ja.po	631250297	3647582110	50142	51375
+install/po/lt.po	3904806861	1902899152	53564	54877
+install/po/nl.po	3126771860	2359035133	53986	55318
+install/po/ru.po	4497390	2367760642	76281	77652
+install/po/sr.po	4266948177	2326991272	53451	54782
+install/po/strings.raw	994833110	1241741775	27363	27705
+install/po/tr.po	926423705	169882578	39602	40766
+install/po/vi.po	2855870731	1211203915	59065	60381
+install/po/zh_TW.po	1828372770	1087411769	50324	51555
+install/steps/AdminUserSetupStep.class	2773550051	1267501563	4055	4172
+install/steps/AuthenticateStep.class	3465863957	591632128	3253	3358
+install/steps/CreateConfigFileStep.class	3822745345	1203798189	8054	8267
+install/steps/DatabaseSetupStep.class	778909019	133537552	23838	24526
+install/steps/FinishedStep.class	1203079481	2286435677	1277	1314
+install/steps/InstallCoreModuleStep.class	3140207937	1478268403	9425	9668
+install/steps/InstallOtherModulesStep.class	287986794	3432294377	9700	9999
+install/steps/MultisiteStep.class	1812719009	2975240570	6146	6319
+install/steps/SecureStep.class	3791678703	3890264196	2105	2163
+install/steps/StorageSetupStep.class	2485669188	1088214438	2806	2903
+install/steps/SystemChecksStep.class	1419660991	591996969	17235	17706
+install/steps/WelcomeStep.class	147987839	1763792472	1459	1507
+install/styles/style.css	3342340958	3181552316	9186	9601
+install/templates/AdminUserSetupRequest.html	2665936849	1397545983	3653	3769
+install/templates/AdminUserSetupSuccess.html	4206166754	147542172	100	105
+install/templates/AuthenticateRequest.html	500598403	1259096118	1420	1443
+install/templates/AuthenticateSuccessful.html	1331499763	934077975	89	94
+install/templates/CleanInstallRequest.html	366032670	2688710446	1065	1089
+install/templates/CreateConfigFileFailed.html	104200828	156890698	478	495
+install/templates/CreateConfigFileInstructions.html	816676056	3121262458	1343	1364
+install/templates/CreateConfigFileSuccess.html	1391408172	829188516	407	416
+install/templates/DatabaseSetupRequest.html	1781875563	3350340394	4822	4960
+install/templates/DatabaseSetupSuccess.html	920547944	825436087	90	95
+install/templates/Finished.html	3485087966	253751	740	757
+install/templates/Header.html	26338478	4088582083	660	683
+install/templates/InstallCoreModule.html	3406637923	1800050101	574	586
+install/templates/InstallCoreModuleError.html	2589349954	1077866568	1546	1574
+install/templates/InstallCoreModuleSuccess.html	1962461428	3347005861	434	443
+install/templates/InstallOtherModulesRequest.html	241814384	1069551249	4548	4662
+install/templates/InstallOtherModulesSuccess.html	2054838603	2083029200	1921	1966
+install/templates/MainPage.html	3184187006	937988509	6856	7019
+install/templates/ManifestSystemCheck.html	3337248559	2954323363	3375	3437
+install/templates/Multisite.html	2993730431	1274783118	4935	5034
+install/templates/MultisiteSuccess.html	3637549020	2095741799	206	216
+install/templates/NavBar.html	1952304065	963513540	1258	1297
+install/templates/Secure.html	3799057016	1288594946	2083	2125
+install/templates/StorageSetupRequest.html	3810035790	1958784847	6625	6743
+install/templates/StorageSetupSuccess.html	1056692906	3881909576	97	102
+install/templates/SystemChecks.html	3858186548	1672036693	1111	1150
+install/templates/VersionCheckFailed.html	2392876071	2711850686	1824	1885
+install/templates/Welcome.html	323427562	1324202276	1733	1765
+lib/adodb/adodb-error.inc.php	77532951	4040964880	8544	8802
+lib/adodb/adodb-iterator.inc.php	3659028501	2126144351	1598	1682
+lib/adodb/adodb-lib.inc.php	961328343	984121911	31147	32150
+lib/adodb/adodb-perf.inc.php	1402422590	2299237798	30669	31722
+lib/adodb/adodb-php4.inc.php	1669925684	2721487400	322	338
+lib/adodb/adodb-time.inc.php	1928003692	589135776	38309	39596
+lib/adodb/adodb.inc.php	1397080260	1532612831	110446	114322
+lib/adodb/drivers/adodb-db2.inc.php	4200921585	1679725137	19278	18566
+lib/adodb/drivers/adodb-mysql.inc.php	736436489	2484851888	20197	20962
+lib/adodb/drivers/adodb-mysqli.inc.php	3810395695	2029575170	22892	23797
+lib/adodb/drivers/adodb-mysqlt.inc.php	3238524927	1073388507	3155	3291
+lib/adodb/drivers/adodb-oci8.inc.php	252984552	295727008	42362	43839
+lib/adodb/drivers/adodb-oci805.inc.php	2168296824	3575527679	1581	1640
+lib/adodb/drivers/adodb-oci8po.inc.php	3651933450	2214443315	5503	5720
+lib/adodb/drivers/adodb-odbc.inc.php	199758350	395992292	19509	20246
+lib/adodb/drivers/adodb-oracle.inc.php	4014458939	1041881342	8987	9307
+lib/adodb/drivers/adodb-postgres.inc.php	3948024068	3653464705	521	535
+lib/adodb/drivers/adodb-postgres64.inc.php	238435762	2975266248	30508	31525
+lib/adodb/drivers/adodb-postgres7.inc.php	1701391097	3908283189	5900	6130
+lib/adodb/drivers/adodb-sqlite.inc.php	254780254	3255667589	9722	10095
+lib/adodb/drivers/adodb-sqlitepo.inc.php	3901842332	3687547395	1865	1927
+lib/adodb/license.txt	3461088424	425178580	25899	26081
+lib/adodb/perf/perf-mysql.inc.php	1442146649	2878750193	8431	8746
+lib/adodb/perf/perf-oci8.inc.php	3735861036	131346913	16493	17002
+lib/adodb/perf/perf-postgres.inc.php	2767303678	3470863618	4613	4737
+lib/adodb/readme.txt	3642036082	427593884	1671	1733
+lib/adodb/tohtml.inc.php	1880888250	1302270575	5527	5722
+lib/bbcode/README	1827601533	334588623	631	646
+lib/bbcode/bbcode.class	3568792804	380747630	18202	18787
+lib/javascript/AutoComplete.js	824915856	3025668987	8599	8867
+lib/javascript/BlockSelectWidget.js	1243752342	3594305303	19574	20190
+lib/javascript/BlockToggle.js	3317932221	222322817	1380	1415
+lib/javascript/XmlHttp.js	1952168086	3889258923	1754	1809
+lib/pear/HTMLSax3.php	3913894665	24504344	42833	44171
+lib/pear/Safe.php	2376451402	301448156	18672	18003
+lib/smarty/COPYING.lib	2819441257	4217144802	24389	24847
+lib/smarty/Config_File.class.php	280373870	1894563025	12717	13106
+lib/smarty/README	2466752195	1693895370	3186	3266
+lib/smarty/Smarty.class.php	2604844775	416015268	62933	64867
+lib/smarty/Smarty_Compiler.class.php	1051914029	1851496897	91064	93375
+lib/smarty/debug.tpl	1729946169	3215374183	5066	5130
+lib/smarty/internals/core.assemble_plugin_filepath.php	2308203854	285966143	1949	2016
+lib/smarty/internals/core.assign_smarty_interface.php	3876088753	1676896789	1258	1301
+lib/smarty/internals/core.create_dir_structure.php	3825454299	1799593054	2496	2575
+lib/smarty/internals/core.display_debug_console.php	2623652360	3109619299	1583	1644
+lib/smarty/internals/core.get_include_path.php	2904186623	2076945407	1002	1046
+lib/smarty/internals/core.get_microtime.php	4175355305	2363575603	360	383
+lib/smarty/internals/core.get_php_resource.php	600575070	46127069	2467	2547
+lib/smarty/internals/core.is_secure.php	2972518146	952963268	1671	1730
+lib/smarty/internals/core.is_trusted.php	403926356	2749494319	1273	1320
+lib/smarty/internals/core.load_plugins.php	2582671890	3075972098	4429	4554
+lib/smarty/internals/core.load_resource_plugin.php	3083340139	958865844	2147	2221
+lib/smarty/internals/core.process_cached_inserts.php	541317271	122165627	2404	2475
+lib/smarty/internals/core.process_compiled_include.php	2167620517	3150673181	1011	1048
+lib/smarty/internals/core.read_cache_file.php	2573194400	2033973560	3604	3705
+lib/smarty/internals/core.rm_auto.php	2261804047	688618704	2286	2357
+lib/smarty/internals/core.rmdir.php	2415460627	1014435373	1444	1498
+lib/smarty/internals/core.run_insert_handler.php	2810320771	3072536386	2656	2727
+lib/smarty/internals/core.smarty_include_php.php	1062397499	381887763	1602	1652
+lib/smarty/internals/core.write_cache_file.php	120483243	3185751241	3620	3716
+lib/smarty/internals/core.write_compiled_include.php	4277651660	63020855	3118	3209
+lib/smarty/internals/core.write_compiled_resource.php	1297727610	3763704011	1081	1116
+lib/smarty/internals/core.write_file.php	380554207	3334012302	1378	1432
+lib/smarty/plugins/block.textformat.php	3226108329	2594660056	2797	2899
+lib/smarty/plugins/compiler.assign.php	2754527954	3244191588	968	1006
+lib/smarty/plugins/function.assign_debug_info.php	3630973802	2502619675	1116	1155
+lib/smarty/plugins/function.config_load.php	1107411515	330559359	6029	6169
+lib/smarty/plugins/function.counter.php	401080161	579120412	1726	1805
+lib/smarty/plugins/function.cycle.php	2535274429	3387179515	3192	3294
+lib/smarty/plugins/function.debug.php	2310365736	3966496971	835	870
+lib/smarty/plugins/function.eval.php	2926625628	192338870	968	1016
+lib/smarty/plugins/function.fetch.php	1740153398	3325680261	8697	8917
+lib/smarty/plugins/function.html_checkboxes.php	1022408579	158205255	4381	4524
+lib/smarty/plugins/function.html_image.php	2225476841	937690238	4615	4754
+lib/smarty/plugins/function.html_options.php	3652276149	3704235195	3751	3872
+lib/smarty/plugins/function.html_radios.php	2829508658	1036916117	4841	4997
+lib/smarty/plugins/function.html_select_date.php	3116931272	1686363577	11592	11914
+lib/smarty/plugins/function.html_select_time.php	2974759527	1072877132	7170	7362
+lib/smarty/plugins/function.html_table.php	3749617632	418056692	3759	3896
+lib/smarty/plugins/function.mailto.php	60639751	627145855	5161	5324
+lib/smarty/plugins/function.math.php	502815260	509038510	2514	2597
+lib/smarty/plugins/function.popup.php	1321748570	4215433819	3201	3318
+lib/smarty/plugins/function.popup_init.php	416744434	2053827845	931	970
+lib/smarty/plugins/modifier.capitalize.php	3792950535	4024579441	946	988
+lib/smarty/plugins/modifier.cat.php	3804093512	1426896802	623	656
+lib/smarty/plugins/modifier.count_characters.php	1352478836	2170624607	695	726
+lib/smarty/plugins/modifier.count_paragraphs.php	2270409908	2717822743	582	610
+lib/smarty/plugins/modifier.count_sentences.php	3962052522	3635204750	605	633
+lib/smarty/plugins/modifier.count_words.php	3249798812	1197021994	703	735
+lib/smarty/plugins/modifier.date_format.php	2696773927	305014695	1361	1409
+lib/smarty/plugins/modifier.debug_print_var.php	307643750	677368606	1863	1919
+lib/smarty/plugins/modifier.default.php	3302512418	3330995144	587	618
+lib/smarty/plugins/modifier.escape.php	3586625910	2700753262	2527	2616
+lib/smarty/plugins/modifier.indent.php	2385926590	1026216977	519	546
+lib/smarty/plugins/modifier.lower.php	3347692285	3042225050	433	458
+lib/smarty/plugins/modifier.nl2br.php	39964044	4029780705	717	752
+lib/smarty/plugins/modifier.regex_replace.php	1660684611	2772362009	830	863
+lib/smarty/plugins/modifier.replace.php	1967704499	360076863	537	566
+lib/smarty/plugins/modifier.spacify.php	321270991	4177870351	596	625
+lib/smarty/plugins/modifier.string_format.php	1749579289	1683572690	531	559
+lib/smarty/plugins/modifier.strip.php	982963012	3023277631	742	775
+lib/smarty/plugins/modifier.strip_tags.php	2474370798	2764608498	628	659
+lib/smarty/plugins/modifier.truncate.php	289006270	1558915657	1260	1309
+lib/smarty/plugins/modifier.upper.php	247861502	3840162767	433	458
+lib/smarty/plugins/modifier.wordwrap.php	1792394084	1768332614	565	593
+lib/smarty/plugins/outputfilter.trimwhitespace.php	2003755543	1480698520	2649	2724
+lib/smarty/plugins/shared.escape_special_chars.php	112759707	1344107215	726	756
+lib/smarty/plugins/shared.make_timestamp.php	2315225765	1449554211	1119	1164
+lib/smarty_plugins/modifier.entitytruncate.php	562427464	4129288720	2963	3040
+lib/smarty_plugins/modifier.ireplace.php	3180427379	3892883559	1439	1477
+lib/smarty_plugins/modifier.markup.php	379482413	4058248073	6247	6447
+lib/smarty_plugins/modifier.print_r.php	446853044	1466621661	1239	1275
+lib/smarty_plugins/modifier.repeat.php	3341375489	871250771	1192	1226
+lib/smarty_plugins/modifier.split.php	2571367552	3843227037	1310	1345
+lib/smarty_plugins/modifier.utf8.php	1482781641	1234639668	1226	1261
+lib/smtp/smtp.php	452454365	1118372581	5766	5945
+lib/support/cache.php	2757175464	3701863474	4406	4563
+lib/support/gd.php	443675872	1526100726	7242	7487
+lib/support/index.php	3495394390	3246591323	1299	1341
+lib/support/phpinfo.php	3303129836	2657748157	139	145
+lib/support/security.inc	3920275185	3469942833	4922	5100
+lib/support/support.css	887804749	2618199775	793	849
+lib/tools/bin/.htaccess	421983041	3149581760	31	33
+lib/tools/bin/GNUmakefile.GalleryStorage	59425111	3439998927	988	1025
+lib/tools/bin/GNUmakefile.classes	875481188	1455723513	803	828
+lib/tools/bin/XmlParser.inc	661699572	1600732879	2432	2512
+lib/tools/bin/dbxml.tpl	3553010328	1207082628	1348	1402
+lib/tools/bin/entities.tpl	1926639038	871525141	781	796
+lib/tools/bin/extractClassXml.pl	1987079674	2958783943	1422	1484
+lib/tools/bin/generate-dbxml.php	1558959029	3471330828	8585	8895
+lib/tools/bin/generate-entities.php	3584968335	2359161585	5636	5840
+lib/tools/bin/generate-maps.php	3272770762	3527689181	3114	3225
+lib/tools/bin/generate-sql.php	1393891547	2557216648	37212	38419
+lib/tools/bin/getIllegalFunctions.pl	2694286659	3868382365	1197	1248
+lib/tools/bin/makeManifest.pl	3913839410	3897275588	4138	4317
+lib/tools/bin/maps.tpl	1915592437	1513454121	482	489
+lib/tools/bin/rebuild-modules.pl	2721262392	211589498	465	481
+lib/tools/creator/GNUmakefile.tpl	4034380534	480088214	159	166
+lib/tools/creator/MyPage.inc.tpl	1328262831	695735545	3138	3246
+lib/tools/creator/MyPage.tpl.tpl	4104452985	3636842738	1427	1467
+lib/tools/creator/MyPageHelper.class.tpl	946113430	2842371581	2017	2090
+lib/tools/creator/create-module.php	753517275	1850083787	5222	5407
+lib/tools/creator/map.tpl	1080745876	25718043	515	536
+lib/tools/creator/module.inc.tpl	1789825528	4095728007	2019	2084
+lib/tools/dtd/DatabaseChangeDefinition2.0.dtd	1504463714	2133524373	1010	1035
+lib/tools/dtd/DatabaseRemoveDefinition2.0.dtd	326094190	4082287261	203	210
+lib/tools/dtd/DatabaseTableDefinition2.0.dtd	118093666	1731261693	652	669
+lib/tools/dtd/GalleryClass2.1.dtd	3901647794	1873521681	991	1017
+lib/tools/dtd/MapsDefinition2.0.dtd	4110984890	3658939786	828	849
+lib/tools/phpunit/CodeAuditTestCase.class	3732017498	216611198	4663	4833
+lib/tools/phpunit/GalleryControllerTestCase.class	2015403514	103993764	2823	2910
+lib/tools/phpunit/GalleryTestCase.class	3787831746	2848069363	24624	25531
+lib/tools/phpunit/ItemAddOptionTestCase.class	1816884479	3680725495	3215	3313
+lib/tools/phpunit/ItemAddPluginTestCase.class	3970204793	2412076827	3521	3628
+lib/tools/phpunit/ItemEditOptionTestCase.class	4181372513	3980667884	4373	4525
+lib/tools/phpunit/ItemEditPluginTestCase.class	1448389286	159875520	3422	3529
+lib/tools/phpunit/MockTemplateAdapter.class	4045739188	4036523352	1922	1990
+lib/tools/phpunit/UnitTestPlatform.class	3485904861	914670010	10608	10967
+lib/tools/phpunit/index.php	2270092463	176717141	11307	11662
+lib/tools/phpunit/index.tpl	3768006181	805680868	9784	10038
+lib/tools/phpunit/phpunit.inc	832799066	1192226931	22579	23343
+lib/tools/phpunit/stylesheet.css	1952326772	1179756497	1513	1634
+lib/tools/po/.htaccess	3087127056	3127319940	47	50
+lib/tools/po/GNUmakefile.inc	3479058604	1969653512	3570	3684
+lib/tools/po/extract.php	3704249655	1875819259	7563	7806
+lib/tools/po/header.txt	3971059142	3334049724	871	889
+lib/tools/po/premerge-messages.pl	3726868671	3199359966	912	970
+lib/tools/po/shtool	2882826200	4174946454	23738	24454
+lib/tools/po/trim-po.php	1059762532	3850129567	1473	1531
+lib/tools/po/update-all-translations.pl	1061139389	3973499131	2776	2898
+lib/tools/reports/localization.php	3040126047	1310255561	8542	8891
+lib/tools/reports/localization/main_detail.inc	1636060856	2342370431	1775	1821
+lib/tools/reports/localization/main_summary.inc	2283838678	1340429384	1968	2024
+lib/tools/reports/localization/plugin_rowdata.inc	2453289316	3681605192	1012	1041
+lib/tools/reports/localization/row_header_detail.inc	1624705811	2384764330	365	397
+lib/tools/reports/localization/row_header_summary.inc	4061216132	3874970834	295	321
+lib/tools/reports/localization/style.css	4249298283	2086969677	1524	1582
+lib/tools/repository/IndexGenerator.inc	2179340955	1798122181	2428	2503
+lib/tools/repository/MainPage.inc	3595626950	3866564652	2399	2467
+lib/tools/repository/PackagePlugin.inc	1048667894	3972286936	6352	6556
+lib/tools/repository/RepositoryManager.inc	2479084039	1785329520	3818	3931
+lib/tools/repository/classes/RepositoryControllerAndView.class	3811172240	1788485857	2973	3064
+lib/tools/repository/classes/RepositoryDescriptor.class	768216169	3357846746	11476	11860
+lib/tools/repository/classes/RepositoryIndex.class	1621822664	2542053415	8092	8335
+lib/tools/repository/classes/RepositoryObject.class	2403234181	2396616345	6293	6515
+lib/tools/repository/classes/RepositoryPackage.class	4203749229	193122113	6136	6324
+lib/tools/repository/index.php	3477279753	2665472946	3760	3878
+lib/tools/repository/templates/IndexGenerationResults.tpl	4132425897	715345008	681	697
+lib/tools/repository/templates/MainPage.tpl	1540153781	1531252840	1550	1598
+lib/tools/repository/templates/PackagePlugin.tpl	1879753614	582251776	1717	1773
+lib/tools/repository/templates/PackageRemovalResults.tpl	815319763	489242935	951	989
+lib/tools/repository/templates/PackageResults.tpl	696383687	3680087762	1277	1323
+lib/tools/repository/templates/RepositoryManager.tpl	3568789808	2085963362	1640	1699
+lib/tools/repository/templates/package.tpl	691805757	1183866616	570	592
+lib/tools/repository/templates/stylesheet.css	3092442100	1343845795	1512	1631
+lib/tools/repository/test/data/SampleDescriptors.inc	3720177841	654249606	9630	9895
+lib/tools/repository/test/data/SampleIndex.inc	2540359321	3060410067	2492	2562
+lib/tools/repository/test/data/testShowViewTemplate.tpl	3021762416	3854479862	8	9
+lib/tools/repository/test/phpunit/RepositoryControllerAndViewTest.class	539026214	730271823	1844	1900
+lib/tools/repository/test/phpunit/RepositoryDescriptorTest.class	3189797430	3154398512	13149	13592
+lib/tools/repository/test/phpunit/RepositoryObjectTest.class	3777778579	369153762	4080	4196
+lib/tools/repository/test/phpunit/RepositoryPackageTest.class	3462839664	1518274287	8754	9009
+lib/tools/repository/test/phpunit/RepositoryTestTemplate.class	996218485	2927974365	2019	2088
+lib/tools/repository/test/phpunit/RepositoryToolsIndexTest.class	3200768206	98675159	5160	5319
+lib/tools/stubs/.htaccess	3087127056	3127319940	47	50
+lib/tools/stubs/README	1151385191	4022774953	302	308
+lib/tools/stubs/Smarty_stub.class	2787424404	3329876977	1076	1110
+lib/tools/stubs/TestCase_stub.class	2471758023	1604889499	1081	1115
+lib/tools/uml/GNUmakefile	3017185505	848639846	105	113
+lib/tools/uml/JavaClasses.xsl	742229467	3652984814	2212	2265
+lib/tools/uml/make-java-classes.pl	3765624927	2605669075	2734	2840
+lib/wz_dragdrop/transparentpixel.gif	140141401	140141401	43	43
+lib/wz_dragdrop/wz_dragdrop.js	3756427581	4136821188	38687	40134
+main.php	4124948036	3687817326	19936	20533
+upgrade/GalleryStub.class	3923355715	3092239159	1200	1238
+upgrade/StatusTemplate.class	894767277	1793118899	3322	3425
+upgrade/UpgradeStep.class	1279486868	3692805316	2415	2524
+upgrade/images/background.png	2766840926	2766840926	23329	23329
+upgrade/images/btnBGbl.gif	162020977	162020977	172	172
+upgrade/images/btnBGgrn.gif	921048166	921048166	173	173
+upgrade/images/btnBGor.gif	3886118901	3886118901	173	173
+upgrade/images/btnBLbl.gif	929171289	929171289	172	172
+upgrade/images/btnBLgrn.gif	676576556	676576556	171	171
+upgrade/images/btnBLor.gif	3122183424	3122183424	172	172
+upgrade/images/btnBRbl.gif	3553759478	3553759478	172	172
+upgrade/images/btnBRgrn.gif	1593520250	1593520250	172	172
+upgrade/images/btnBRor.gif	2239040372	2239040372	172	172
+upgrade/images/btnTLbl.gif	752510677	752510677	171	171
+upgrade/images/btnTLgrn.gif	1620552182	1620552182	171	171
+upgrade/images/btnTLor.gif	1764133389	1764133389	171	171
+upgrade/images/btnTRbl.gif	3306389985	3306389985	169	169
+upgrade/images/btnTRgrn.gif	1466176462	1466176462	169	169
+upgrade/images/btnTRor.gif	3506895090	3506895090	170	170
+upgrade/images/g2Logo_upgrade_head.png	2325312367	2325312367	16522	16522
+upgrade/images/ico_error.gif	3087634832	3087634832	1608	1608
+upgrade/images/ico_success.gif	1603034537	1603034537	1629	1629
+upgrade/images/ico_warning.gif	3081259453	3081259453	1589	1589
+upgrade/index.php	1260969029	1545528715	7938	8203
+upgrade/locale/bg/LC_MESSAGES/gallery2_upgrade.mo	1730320487	1730320487	14241	14241
+upgrade/locale/cs/LC_MESSAGES/gallery2_upgrade.mo	3217146458	3217146458	24038	24038
+upgrade/locale/de/LC_MESSAGES/gallery2_upgrade.mo	650034577	650034577	25948	25948
+upgrade/locale/eu/LC_MESSAGES/gallery2_upgrade.mo	226656984	226656984	20962	20962
+upgrade/locale/fr/LC_MESSAGES/gallery2_upgrade.mo	4047871345	4047871345	26624	26624
+upgrade/locale/it/LC_MESSAGES/gallery2_upgrade.mo	1339539598	1339539598	22945	22945
+upgrade/locale/ja/LC_MESSAGES/gallery2_upgrade.mo	1987756601	1987756601	24359	24359
+upgrade/locale/nl/LC_MESSAGES/gallery2_upgrade.mo	327438399	327438399	22620	22620
+upgrade/locale/ru/LC_MESSAGES/gallery2_upgrade.mo	4048709402	4048709402	34038	34038
+upgrade/locale/sr/LC_MESSAGES/gallery2_upgrade.mo	472826534	472826534	21234	21234
+upgrade/locale/tr/LC_MESSAGES/gallery2_upgrade.mo	3910439440	3910439440	21562	21562
+upgrade/locale/vi/LC_MESSAGES/gallery2_upgrade.mo	2299041631	2299041631	23552	23552
+upgrade/locale/zh_TW/LC_MESSAGES/gallery2_upgrade.mo	1322950814	1322950814	22886	22886
+upgrade/po/GNUmakefile	3981272167	3303981136	126	132
+upgrade/po/bg.po	3908679890	1748246892	22362	23042
+upgrade/po/cs.po	2241658134	1144768304	25623	26327
+upgrade/po/de.po	2699102967	3732039468	27774	28507
+upgrade/po/eu.po	2618271103	3681633471	24987	25699
+upgrade/po/fr.po	135525894	2993433917	28100	28827
+upgrade/po/it.po	3564211104	1204910814	26033	26751
+upgrade/po/ja.po	1890833978	4232854213	28610	29313
+upgrade/po/nl.po	3883868900	2316796665	25683	26397
+upgrade/po/ru.po	4198512646	1105813570	35751	36482
+upgrade/po/sr.po	2390743397	2151232051	25319	26033
+upgrade/po/strings.raw	929961748	2396586966	13269	13466
+upgrade/po/tr.po	1997948646	3565764524	25842	26557
+upgrade/po/vi.po	209456357	3038473165	27706	28407
+upgrade/po/zh_TW.po	1223297710	3278511124	24270	24941
+upgrade/steps/AuthenticateStep.class	3852061931	2378990628	1632	1683
+upgrade/steps/CleanCacheStep.class	3154473116	1544421415	2012	2072
+upgrade/steps/FinishedStep.class	2217582252	975587033	1110	1143
+upgrade/steps/RedirectToInstallerStep.class	105815145	1148586518	1715	1767
+upgrade/steps/SystemChecksStep.class	4021006061	3699123062	18545	19063
+upgrade/steps/UpgradeCoreModuleStep.class	937808277	1026697488	4214	4343
+upgrade/steps/UpgradeOtherModulesStep.class	1150987785	243934851	11004	11334
+upgrade/steps/WelcomeStep.class	4020818471	2837067077	1569	1619
+upgrade/styles/style.css	313922371	1958481033	8335	8700
+upgrade/templates/AuthenticateRequest.html	4038237541	1632306365	1157	1189
+upgrade/templates/AuthenticateSuccessful.html	2066199327	580023278	101	106
+upgrade/templates/CleanCache.html	1551355669	2812379792	1496	1527
+upgrade/templates/Finished.html	3352690101	4008685855	507	520
+upgrade/templates/Header.html	445714115	3021541490	658	681
+upgrade/templates/InvalidConfig.html	1476367480	3003024647	356	362
+upgrade/templates/MainPage.html	1999211528	13106538	6301	6465
+upgrade/templates/ManifestSystemCheck.html	2122196508	3729574250	3380	3443
+upgrade/templates/NavBar.html	3813728563	2324884567	1223	1263
+upgrade/templates/RedirectToInstaller.html	4115505707	2358693729	934	954
+upgrade/templates/SystemChecks.html	3858186548	1672036693	1111	1150
+upgrade/templates/UpgradeCoreModuleError.html	3625831103	3860079866	739	763
+upgrade/templates/UpgradeCoreModuleRequest.html	3778841041	2647671341	3415	3507
+upgrade/templates/UpgradeCoreModuleSuccess.html	1256636731	4080293428	682	700
+upgrade/templates/UpgradeCoreModuleUpToDate.html	2320865409	2029739622	354	372
+upgrade/templates/UpgradeOtherModulesRequest.html	1018034427	2891530433	5410	5563
+upgrade/templates/UpgradeOtherModulesSuccess.html	2044152369	1768172150	1983	2040
+upgrade/templates/Welcome.html	1726050160	2949339492	1236	1261
+R	docs/LOCALIZING
+R	init.php
+R	install/locale/bg_BG/LC_MESSAGES/gallery2_install.mo
+R	install/locale/cs_CZ/LC_MESSAGES/gallery2_install.mo
+R	install/locale/de_DE/LC_MESSAGES/gallery2_install.mo
+R	install/locale/eu_ES/LC_MESSAGES/gallery2_install.mo
+R	install/locale/fr_FR/LC_MESSAGES/gallery2_install.mo
+R	install/locale/it_IT/LC_MESSAGES/gallery2_install.mo
+R	install/locale/ja_JP/LC_MESSAGES/gallery2_install.mo
+R	install/locale/nl_NL/LC_MESSAGES/gallery2_install.mo
+R	install/locale/sr_YU/LC_MESSAGES/gallery2_install.mo
+R	install/locale/tr_TR/LC_MESSAGES/gallery2_install.mo
+R	install/locale/vi_VN/LC_MESSAGES/gallery2_install.mo
+R	install/multiconfig.php-template
+R	install/po/bg_BG.po
+R	install/po/cs_CZ.po
+R	install/po/de_DE.po
+R	install/po/eu_ES.po
+R	install/po/fr_FR.po
+R	install/po/it_IT.po
+R	install/po/ja_JP.po
+R	install/po/nl_NL.po
+R	install/po/sr_YU.po
+R	install/po/tr_TR.po
+R	install/po/vi_VN.po
+R	install/templates/WelcomeMultiSite.html
+R	layouts/classic
+R	layouts/hybrid
+R	layouts/matrix
+R	layouts/siriux
+R	layouts/slider
+R	layouts/tile
+R	lib/IE7
+R	lib/java
+R	lib/smarty/core
+R	lib/smarty_plugins/function.adminlinkid.php
+R	lib/smarty_plugins/function.safecssname.php
+R	lib/tools/CRC32.jar
+R	lib/tools/GNUmakefile.inc
+R	lib/tools/bin/codex-download.tpl
+R	lib/tools/bin/filterManifests.pl
+R	lib/tools/bin/generate-interfaces.php
+R	lib/tools/bin/interface.tpl
+R	lib/tools/bin/rebuild-modules.sh
+R	lib/tools/bin/update-codex-download-page.php
+R	lib/tools/dtd/GalleryClass2.0.dtd
+R	lib/tools/gd
+R	lib/tools/messages
+R	lib/tools/phpinfo.php
+R	lib/tools/po/extract.pl
+R	lib/tools/security.inc
+R	lib/tools/test
+R	templates
+R	themes/mblue
+R	themes/veloria
+R	upgrade/images/g2Logo_install_head.png
+R	upgrade/locale/bg_BG/LC_MESSAGES/gallery2_upgrade.mo
+R	upgrade/locale/cs_CZ/LC_MESSAGES/gallery2_upgrade.mo
+R	upgrade/locale/de_DE/LC_MESSAGES/gallery2_upgrade.mo
+R	upgrade/locale/eu_ES/LC_MESSAGES/gallery2_upgrade.mo
+R	upgrade/locale/fr_FR/LC_MESSAGES/gallery2_upgrade.mo
+R	upgrade/locale/it_IT/LC_MESSAGES/gallery2_upgrade.mo
+R	upgrade/locale/nl_NL/LC_MESSAGES/gallery2_upgrade.mo
+R	upgrade/locale/sr_YU/LC_MESSAGES/gallery2_upgrade.mo
+R	upgrade/locale/tr_TR/LC_MESSAGES/gallery2_upgrade.mo
+R	upgrade/locale/vi_VN/LC_MESSAGES/gallery2_upgrade.mo
+R	upgrade/po/bg_BG.po
+R	upgrade/po/cs_CZ.po
+R	upgrade/po/de_DE.po
+R	upgrade/po/eu_ES.po
+R	upgrade/po/fr_FR.po
+R	upgrade/po/it_IT.po
+R	upgrade/po/nl_NL.po
+R	upgrade/po/sr_YU.po
+R	upgrade/po/tr_TR.po
+R	upgrade/po/vi_VN.po

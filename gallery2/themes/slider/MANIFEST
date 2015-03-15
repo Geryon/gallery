@@ -1,0 +1,82 @@
+# File crc32 crc32(crlf) size size(crlf)  or  R File
+themes/slider/images/fit.png	2488583742	2488583742	348	348
+themes/slider/images/full.png	1745942779	1745942779	367	367
+themes/slider/images/fwd.png	385393509	385393509	298	298
+themes/slider/images/next-off.png	2294250142	2294250142	295	295
+themes/slider/images/next.png	65629795	65629795	303	303
+themes/slider/images/poz.png	4067153868	4067153868	258	258
+themes/slider/images/prev-off.png	852880203	852880203	302	302
+themes/slider/images/prev.png	562152296	562152296	311	311
+themes/slider/images/rand.png	3054243119	3054243119	331	331
+themes/slider/images/rev.png	3305594486	3305594486	297	297
+themes/slider/images/tool.png	993787435	993787435	312	312
+themes/slider/locale/cs/LC_MESSAGES/themes_slider.mo	384164284	384164284	2144	2144
+themes/slider/locale/da/LC_MESSAGES/themes_slider.mo	2315521332	2315521332	2146	2146
+themes/slider/locale/de/LC_MESSAGES/themes_slider.mo	472397917	472397917	2226	2226
+themes/slider/locale/fi/LC_MESSAGES/themes_slider.mo	208427727	208427727	2099	2099
+themes/slider/locale/fr/LC_MESSAGES/themes_slider.mo	866496710	866496710	2162	2162
+themes/slider/locale/is/LC_MESSAGES/themes_slider.mo	2765670174	2765670174	421	421
+themes/slider/locale/it/LC_MESSAGES/themes_slider.mo	1154850089	1154850089	2240	2240
+themes/slider/locale/nl/LC_MESSAGES/themes_slider.mo	1110064192	1110064192	2134	2134
+themes/slider/locale/no/LC_MESSAGES/themes_slider.mo	3537288550	3537288550	1387	1387
+themes/slider/locale/ru/LC_MESSAGES/themes_slider.mo	1887903929	1887903929	2758	2758
+themes/slider/locale/sr/LC_MESSAGES/themes_slider.mo	2775130089	2775130089	2122	2122
+themes/slider/locale/sv/LC_MESSAGES/themes_slider.mo	1207162809	1207162809	2202	2202
+themes/slider/locale/tr/LC_MESSAGES/themes_slider.mo	1477924049	1477924049	2156	2156
+themes/slider/locale/vi/LC_MESSAGES/themes_slider.mo	154086511	154086511	2221	2221
+themes/slider/locale/zh_CN/LC_MESSAGES/themes_slider.mo	698204780	698204780	1400	1400
+themes/slider/locale/zh_TW/LC_MESSAGES/themes_slider.mo	4243777279	4243777279	2068	2068
+themes/slider/po/GNUmakefile	1866879166	2808215985	98	103
+themes/slider/po/cs.po	74892251	4034594792	2897	3026
+themes/slider/po/da.po	214605296	289569436	2951	3083
+themes/slider/po/de.po	3965387105	497189047	3177	3314
+themes/slider/po/fi.po	2585031109	2764352741	2925	3057
+themes/slider/po/fr.po	1238755591	3770391678	2918	3047
+themes/slider/po/is.po	2539826464	4241385386	2373	2502
+themes/slider/po/it.po	3026296734	3119926493	3008	3140
+themes/slider/po/nl.po	922336656	956899209	3008	3140
+themes/slider/po/no.po	619464161	320490898	2676	2807
+themes/slider/po/ru.po	4010464060	2393459227	3637	3772
+themes/slider/po/sr.po	288046714	9058706	2877	3007
+themes/slider/po/strings.raw	3666808926	1939824773	1017	1061
+themes/slider/po/sv.po	1049114799	2516410836	3193	3332
+themes/slider/po/tr.po	756961583	1288483608	3108	3244
+themes/slider/po/vi.po	3841629313	1344363472	2972	3100
+themes/slider/po/zh_CN.po	1753237673	1257870240	2690	2822
+themes/slider/po/zh_TW.po	23030838	3432217577	2826	2955
+themes/slider/slider.js	1998946141	4134830791	14481	14888
+themes/slider/templates/error.tpl	1345384283	2769574142	988	1017
+themes/slider/templates/header.tpl	4167185580	1337680929	766	784
+themes/slider/templates/progressbar.tpl	1915159928	4220802442	2712	2798
+themes/slider/templates/render.tpl	1694155362	893858584	626	639
+themes/slider/templates/sidebar.tpl	4036070504	1588854990	3296	3391
+themes/slider/templates/slider.tpl	2820516640	4005634994	4020	4105
+themes/slider/templates/theme.tpl	2454237807	1055221637	2857	2941
+themes/slider/theme.css	2705704215	889390371	12704	13339
+themes/slider/theme.inc	2912743358	1231054576	8516	8791
+R	themes/slider/locale/cs_CZ/LC_MESSAGES/themes_slider.mo
+R	themes/slider/locale/da_DK/LC_MESSAGES/themes_slider.mo
+R	themes/slider/locale/de_DE/LC_MESSAGES/themes_slider.mo
+R	themes/slider/locale/fr_FR/LC_MESSAGES/themes_slider.mo
+R	themes/slider/locale/is_IS/LC_MESSAGES/themes_slider.mo
+R	themes/slider/locale/it_IT/LC_MESSAGES/themes_slider.mo
+R	themes/slider/locale/nl_NL/LC_MESSAGES/themes_slider.mo
+R	themes/slider/locale/no_NO/LC_MESSAGES/themes_slider.mo
+R	themes/slider/locale/ru_RU/LC_MESSAGES/themes_slider.mo
+R	themes/slider/locale/sr_YU/LC_MESSAGES/themes_slider.mo
+R	themes/slider/locale/sv_SE/LC_MESSAGES/themes_slider.mo
+R	themes/slider/locale/tr_TR/LC_MESSAGES/themes_slider.mo
+R	themes/slider/locale/vi_VN/LC_MESSAGES/themes_slider.mo
+R	themes/slider/po/cs_CZ.po
+R	themes/slider/po/da_DK.po
+R	themes/slider/po/de_DE.po
+R	themes/slider/po/fr_FR.po
+R	themes/slider/po/is_IS.po
+R	themes/slider/po/it_IT.po
+R	themes/slider/po/nl_NL.po
+R	themes/slider/po/no_NO.po
+R	themes/slider/po/ru_RU.po
+R	themes/slider/po/sr_YU.po
+R	themes/slider/po/sv_SE.po
+R	themes/slider/po/tr_TR.po
+R	themes/slider/po/vi_VN.po

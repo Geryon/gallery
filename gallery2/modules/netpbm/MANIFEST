@@ -1,0 +1,108 @@
+# File crc32 crc32(crlf) size size(crlf)  or  R File
+modules/netpbm/AdminNetPbm.inc	3260108878	3828665539	8350	8634
+modules/netpbm/classes/NetPbmToolkit.class	3350865400	2959133747	23667	24490
+modules/netpbm/classes/NetPbmToolkitHelper.class	2468684728	858420417	11861	12192
+modules/netpbm/locale/cs/LC_MESSAGES/modules_netpbm.mo	3659317715	3659317715	6264	6264
+modules/netpbm/locale/da/LC_MESSAGES/modules_netpbm.mo	248107327	248107327	1919	1919
+modules/netpbm/locale/de/LC_MESSAGES/modules_netpbm.mo	641393492	641393492	6519	6519
+modules/netpbm/locale/el/LC_MESSAGES/modules_netpbm.mo	1027482910	1027482910	383	383
+modules/netpbm/locale/en_GB/LC_MESSAGES/modules_netpbm.mo	280471485	280471485	435	435
+modules/netpbm/locale/es/LC_MESSAGES/modules_netpbm.mo	2497840558	2497840558	1796	1796
+modules/netpbm/locale/es_AR/LC_MESSAGES/modules_netpbm.mo	1353199441	1353199441	438	438
+modules/netpbm/locale/eu/LC_MESSAGES/modules_netpbm.mo	3566686741	3566686741	6102	6102
+modules/netpbm/locale/fi/LC_MESSAGES/modules_netpbm.mo	155672837	155672837	3306	3306
+modules/netpbm/locale/fr/LC_MESSAGES/modules_netpbm.mo	1687564530	1687564530	6551	6551
+modules/netpbm/locale/ga/LC_MESSAGES/modules_netpbm.mo	1780160877	1780160877	2455	2455
+modules/netpbm/locale/he/LC_MESSAGES/modules_netpbm.mo	1657213667	1657213667	3367	3367
+modules/netpbm/locale/is/LC_MESSAGES/modules_netpbm.mo	3609894315	3609894315	456	456
+modules/netpbm/locale/it/LC_MESSAGES/modules_netpbm.mo	118869168	118869168	6440	6440
+modules/netpbm/locale/ja/LC_MESSAGES/modules_netpbm.mo	663608144	663608144	3357	3357
+modules/netpbm/locale/lt/LC_MESSAGES/modules_netpbm.mo	1488150134	1488150134	6290	6290
+modules/netpbm/locale/nl/LC_MESSAGES/modules_netpbm.mo	3174225307	3174225307	6369	6369
+modules/netpbm/locale/no/LC_MESSAGES/modules_netpbm.mo	4186713793	4186713793	3916	3916
+modules/netpbm/locale/pl/LC_MESSAGES/modules_netpbm.mo	3820077750	3820077750	2498	2498
+modules/netpbm/locale/pt/LC_MESSAGES/modules_netpbm.mo	3592052874	3592052874	2358	2358
+modules/netpbm/locale/pt_BR/LC_MESSAGES/modules_netpbm.mo	4033976083	4033976083	1596	1596
+modules/netpbm/locale/ru/LC_MESSAGES/modules_netpbm.mo	2794222173	2794222173	8492	8492
+modules/netpbm/locale/sr/LC_MESSAGES/modules_netpbm.mo	1683294192	1683294192	6410	6410
+modules/netpbm/locale/sv/LC_MESSAGES/modules_netpbm.mo	2953500138	2953500138	5667	5667
+modules/netpbm/locale/tr/LC_MESSAGES/modules_netpbm.mo	3053964969	3053964969	6381	6381
+modules/netpbm/locale/vi/LC_MESSAGES/modules_netpbm.mo	1130046995	1130046995	5191	5191
+modules/netpbm/locale/zh_CN/LC_MESSAGES/modules_netpbm.mo	2139916244	2139916244	4267	4267
+modules/netpbm/locale/zh_TW/LC_MESSAGES/modules_netpbm.mo	3184933073	3184933073	5858	5858
+modules/netpbm/module.inc	2291872809	2777514186	9097	9415
+modules/netpbm/po/GNUmakefile	1866879166	2808215985	98	103
+modules/netpbm/po/cs.po	3675840135	3188450140	7088	7318
+modules/netpbm/po/da.po	1362676123	1096415473	5187	5402
+modules/netpbm/po/de.po	1748316103	2208299748	7549	7784
+modules/netpbm/po/el.po	3653566442	297084951	4706	4920
+modules/netpbm/po/en_GB.po	79853992	622170891	4637	4848
+modules/netpbm/po/es.po	1810853783	3039614239	5225	5442
+modules/netpbm/po/es_AR.po	2812241769	3636067880	5277	5494
+modules/netpbm/po/eu.po	3953612675	2939072119	6900	7126
+modules/netpbm/po/fi.po	3759865298	2383960539	6227	6452
+modules/netpbm/po/fr.po	2844852622	967406211	7355	7583
+modules/netpbm/po/ga.po	1804914223	1694437146	6901	7155
+modules/netpbm/po/he.po	2652130855	2821740861	7273	7503
+modules/netpbm/po/is.po	3261564589	2686394902	4661	4874
+modules/netpbm/po/it.po	2393725323	2137106679	7255	7486
+modules/netpbm/po/ja.po	1070783801	2004200786	6727	6967
+modules/netpbm/po/lt.po	951307531	3982701093	7248	7488
+modules/netpbm/po/nl.po	4228900861	767175875	7287	7518
+modules/netpbm/po/no.po	2649052410	2327578405	6992	7226
+modules/netpbm/po/pl.po	4057867179	1300420132	6237	6471
+modules/netpbm/po/pt.po	55895441	541633087	6121	6352
+modules/netpbm/po/pt_BR.po	389375411	3915599775	5311	5531
+modules/netpbm/po/ru.po	2908459212	1760840929	9426	9661
+modules/netpbm/po/sr.po	4197079365	1531490415	7217	7447
+modules/netpbm/po/strings.raw	1814626678	939965962	2967	3029
+modules/netpbm/po/sv.po	1612245049	1242793608	7310	7549
+modules/netpbm/po/tr.po	2146123551	1983713450	7190	7419
+modules/netpbm/po/vi.po	3552242421	810079280	7768	7998
+modules/netpbm/po/zh_CN.po	193429652	1172759034	6509	6730
+modules/netpbm/po/zh_TW.po	2883646415	1966572216	6630	6849
+modules/netpbm/templates/AdminNetPbm.tpl	2250274753	1830171793	6184	6358
+modules/netpbm/test/phpunit/AdminNetPbmControllerTest.class	247680210	1778159892	8720	8992
+modules/netpbm/test/phpunit/NetPbmToolkitTest.class	2768569781	1214900662	35600	36587
+R	modules/netpbm/locale/cs_CZ/LC_MESSAGES/modules_netpbm.mo
+R	modules/netpbm/locale/da_DK/LC_MESSAGES/modules_netpbm.mo
+R	modules/netpbm/locale/de_DE/LC_MESSAGES/modules_netpbm.mo
+R	modules/netpbm/locale/el_GR/LC_MESSAGES/modules_netpbm.mo
+R	modules/netpbm/locale/eu_ES/LC_MESSAGES/modules_netpbm.mo
+R	modules/netpbm/locale/fi_FI/LC_MESSAGES/modules_netpbm.mo
+R	modules/netpbm/locale/fr_FR/LC_MESSAGES/modules_netpbm.mo
+R	modules/netpbm/locale/ga_IE/LC_MESSAGES/modules_netpbm.mo
+R	modules/netpbm/locale/he_IL/LC_MESSAGES/modules_netpbm.mo
+R	modules/netpbm/locale/is_IS/LC_MESSAGES/modules_netpbm.mo
+R	modules/netpbm/locale/it_IT/LC_MESSAGES/modules_netpbm.mo
+R	modules/netpbm/locale/ja_JP/LC_MESSAGES/modules_netpbm.mo
+R	modules/netpbm/locale/nl_NL/LC_MESSAGES/modules_netpbm.mo
+R	modules/netpbm/locale/no_NO/LC_MESSAGES/modules_netpbm.mo
+R	modules/netpbm/locale/pl_PL/LC_MESSAGES/modules_netpbm.mo
+R	modules/netpbm/locale/pt_PT/LC_MESSAGES/modules_netpbm.mo
+R	modules/netpbm/locale/ru_RU/LC_MESSAGES/modules_netpbm.mo
+R	modules/netpbm/locale/sr_YU/LC_MESSAGES/modules_netpbm.mo
+R	modules/netpbm/locale/sv_SE/LC_MESSAGES/modules_netpbm.mo
+R	modules/netpbm/locale/tr_TR/LC_MESSAGES/modules_netpbm.mo
+R	modules/netpbm/locale/vi_VN/LC_MESSAGES/modules_netpbm.mo
+R	modules/netpbm/po/cs_CZ.po
+R	modules/netpbm/po/da_DK.po
+R	modules/netpbm/po/de_DE.po
+R	modules/netpbm/po/el_GR.po
+R	modules/netpbm/po/eu_ES.po
+R	modules/netpbm/po/fi_FI.po
+R	modules/netpbm/po/fr_FR.po
+R	modules/netpbm/po/ga_IE.po
+R	modules/netpbm/po/he_IL.po
+R	modules/netpbm/po/is_IS.po
+R	modules/netpbm/po/it_IT.po
+R	modules/netpbm/po/ja_JP.po
+R	modules/netpbm/po/nl_NL.po
+R	modules/netpbm/po/no_NO.po
+R	modules/netpbm/po/pl_PL.po
+R	modules/netpbm/po/pt_PT.po
+R	modules/netpbm/po/ru_RU.po
+R	modules/netpbm/po/sr_YU.po
+R	modules/netpbm/po/sv_SE.po
+R	modules/netpbm/po/tr_TR.po
+R	modules/netpbm/po/vi_VN.po

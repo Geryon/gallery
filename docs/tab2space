@@ -1,0 +1,5 @@
+#!/usr/bin/perl -p
+
+# $Id: tab2space 3109 2003-07-02 01:27:22Z alindeman $
+
+s/\t/        /g;

@@ -1,0 +1,23 @@
+# $Id: strings.raw 12873 2006-02-06 06:33:19Z mindless $
+
+/* theme.inc */
+gettext("Matrix")
+gettext("Standard Gallery2 look and feel")
+gettext("You must enter a number")
+
+/* templates/album.tpl */
+gettext("This album is empty.") /* also in: templates/album_float.tpl */
+gettext("Add a photo!") /* also in: templates/album_float.tpl */
+gettext("no thumbnail") /* also in: templates/album_float.tpl */
+gettext("Album: %s") /* also in: templates/album_float.tpl */
+
+/* templates/error.tpl */
+gettext("Error!")
+
+/* templates/photo.tpl */
+gettext("Download %s")
+gettext("There is nothing to view for this item.")
+gettext("Download %s in original format")
+
+/* templates/progressbar.tpl */
+gettext("Continue...")

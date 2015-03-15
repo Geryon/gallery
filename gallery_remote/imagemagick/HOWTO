@@ -1,0 +1,25 @@
+To enable ImageMagick support for your platform, copy the "im.properties" in the 
+corresponding folder to this folder. You should only need to do this if you got 
+Gallery Remote from the CVS repository.
+
+If you already have ImageMagick installed on your system, just rename the 
+"im.properties.preinstalled" to "im.properties" and set the "imConvertPath" 
+property to the exact path to the Convert executable in your ImageMagick 
+installation.
+
+If you compiled ImageMagick for a platform we don't already have support for, 
+please get in touch with me at paour@sourceforge.net so we can include your 
+binaries in our standard distributions.
+
+Unless Gallery Remote was installed with the installer, you should perform these
+post-install steps:
+
+Win32:
+
+- in the main gallery_remote directory, run 'ant imReg'
+
+Linux:
+
+- ImageMagick is not automatically installed on Linux. You need to download it and 
+install it yourself, then edit the "im.properties.preinstalled" file to 
+tell Gallery Remote where it was installed.

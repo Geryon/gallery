@@ -1,0 +1,100 @@
+# File crc32 crc32(crlf) size size(crlf)  or  R File
+modules/members/AdminMembers.inc	2922600598	764029054	4532	4661
+modules/members/Callbacks.inc	642902012	966138273	1854	1912
+modules/members/MembersItems.inc	3956983585	2658511295	4427	4567
+modules/members/MembersList.inc	3276383173	2630028674	4444	4580
+modules/members/MembersProfile.inc	1535074570	4019703971	3803	3924
+modules/members/classes/GalleryMembersHelper.class	2094593424	1714170269	8131	8411
+modules/members/data/directory.gif	1750964601	1750964601	615	615
+modules/members/data/file.gif	3887485054	3887485054	563	563
+modules/members/locale/bg/LC_MESSAGES/modules_members.mo	793296354	793296354	3094	3094
+modules/members/locale/cs/LC_MESSAGES/modules_members.mo	1133879638	1133879638	3052	3052
+modules/members/locale/da/LC_MESSAGES/modules_members.mo	4089557534	4089557534	2849	2849
+modules/members/locale/de/LC_MESSAGES/modules_members.mo	2137152557	2137152557	3036	3036
+modules/members/locale/eu/LC_MESSAGES/modules_members.mo	2386977102	2386977102	2968	2968
+modules/members/locale/fr/LC_MESSAGES/modules_members.mo	943834159	943834159	3024	3024
+modules/members/locale/ga/LC_MESSAGES/modules_members.mo	3686175010	3686175010	1389	1389
+modules/members/locale/hu/LC_MESSAGES/modules_members.mo	3912291265	3912291265	2580	2580
+modules/members/locale/is/LC_MESSAGES/modules_members.mo	3219612945	3219612945	457	457
+modules/members/locale/it/LC_MESSAGES/modules_members.mo	1268748098	1268748098	3028	3028
+modules/members/locale/ja/LC_MESSAGES/modules_members.mo	906103494	906103494	3138	3138
+modules/members/locale/lt/LC_MESSAGES/modules_members.mo	3694901011	3694901011	3111	3111
+modules/members/locale/nl/LC_MESSAGES/modules_members.mo	3826304217	3826304217	2893	2893
+modules/members/locale/no/LC_MESSAGES/modules_members.mo	1925388105	1925388105	2824	2824
+modules/members/locale/pt_BR/LC_MESSAGES/modules_members.mo	66872472	66872472	1145	1145
+modules/members/locale/ru/LC_MESSAGES/modules_members.mo	2681349839	2681349839	4000	4000
+modules/members/locale/sr/LC_MESSAGES/modules_members.mo	2555422903	2555422903	2982	2982
+modules/members/locale/sv/LC_MESSAGES/modules_members.mo	2739732288	2739732288	2985	2985
+modules/members/locale/tr/LC_MESSAGES/modules_members.mo	893279091	893279091	2913	2913
+modules/members/locale/zh_CN/LC_MESSAGES/modules_members.mo	462285553	462285553	2871	2871
+modules/members/locale/zh_TW/LC_MESSAGES/modules_members.mo	2377861880	2377861880	2850	2850
+modules/members/module.inc	973548231	4243253775	2328	2408
+modules/members/po/GNUmakefile	1866879166	2808215985	98	103
+modules/members/po/bg.po	3535004989	3313507383	4165	4347
+modules/members/po/cs.po	1249513882	3543895642	4052	4238
+modules/members/po/da.po	884563470	2895282250	3792	3971
+modules/members/po/de.po	2417058728	7311427	4245	4433
+modules/members/po/eu.po	4261421847	915941105	3958	4140
+modules/members/po/fr.po	938755037	1837692956	3974	4154
+modules/members/po/ga.po	4125397856	1638563702	4718	4933
+modules/members/po/hu.po	2795516356	1261204839	3818	4000
+modules/members/po/is.po	3828715344	419614303	3103	3280
+modules/members/po/it.po	703503626	275064471	3972	4150
+modules/members/po/ja.po	3045626611	4108362180	4075	4251
+modules/members/po/lt.po	336754458	1325735301	4230	4418
+modules/members/po/nl.po	727010485	3861479152	3931	4113
+modules/members/po/no.po	2022263978	2071548326	3881	4066
+modules/members/po/pt_BR.po	3995573121	1877731950	3699	3888
+modules/members/po/ru.po	565662330	3510861928	5166	5353
+modules/members/po/sr.po	2904756099	2589741668	3924	4103
+modules/members/po/strings.raw	2181802828	2318563412	2013	2079
+modules/members/po/sv.po	1220203992	4225054031	4105	4293
+modules/members/po/tr.po	3539802286	699443512	4077	4260
+modules/members/po/zh_CN.po	743600452	636002459	3962	4147
+modules/members/po/zh_TW.po	793923082	3006069144	3753	3929
+modules/members/templates/AdminMembers.tpl	3751658066	2319237128	1496	1538
+modules/members/templates/MembersItems.tpl	3804557794	3208318655	3167	3264
+modules/members/templates/MembersList.tpl	1689408019	2308267381	2637	2719
+modules/members/templates/MembersProfile.tpl	3079511711	410140947	2537	2622
+modules/members/templates/blocks/MembersSummary.tpl	928705338	1581640850	914	940
+modules/members/templates/blocks/blocks.inc	3656415848	2500798587	110	115
+modules/members/test/phpunit/MembersAdminControllerTest.class	2910634833	1088407568	2624	2705
+modules/members/test/phpunit/MembersTest.class	1961463338	382055679	9968	10271
+R	modules/members/locale/bg_BG/LC_MESSAGES/modules_members.mo
+R	modules/members/locale/cs_CZ/LC_MESSAGES/modules_members.mo
+R	modules/members/locale/da_DK/LC_MESSAGES/modules_members.mo
+R	modules/members/locale/de_DE/LC_MESSAGES/modules_members.mo
+R	modules/members/locale/eu_ES/LC_MESSAGES/modules_members.mo
+R	modules/members/locale/fr_FR/LC_MESSAGES/modules_members.mo
+R	modules/members/locale/ga_IE/LC_MESSAGES/modules_members.mo
+R	modules/members/locale/hu_HU/LC_MESSAGES/modules_members.mo
+R	modules/members/locale/is_IS/LC_MESSAGES/modules_members.mo
+R	modules/members/locale/it_IT/LC_MESSAGES/modules_members.mo
+R	modules/members/locale/ja_JP/LC_MESSAGES/modules_members.mo
+R	modules/members/locale/nl_NL/LC_MESSAGES/modules_members.mo
+R	modules/members/locale/no_NO/LC_MESSAGES/modules_members.mo
+R	modules/members/locale/ru_RU/LC_MESSAGES/modules_members.mo
+R	modules/members/locale/sr_YU/LC_MESSAGES/modules_members.mo
+R	modules/members/locale/sv_SE/LC_MESSAGES/modules_members.mo
+R	modules/members/locale/tr_TR/LC_MESSAGES/modules_members.mo
+R	modules/members/po/bg_BG.po
+R	modules/members/po/cs_CZ.po
+R	modules/members/po/da_DK.po
+R	modules/members/po/de_DE.po
+R	modules/members/po/eu_ES.po
+R	modules/members/po/fr_FR.po
+R	modules/members/po/ga_IE.po
+R	modules/members/po/hu_HU.po
+R	modules/members/po/is_IS.po
+R	modules/members/po/it_IT.po
+R	modules/members/po/ja_JP.po
+R	modules/members/po/nl_NL.po
+R	modules/members/po/no_NO.po
+R	modules/members/po/ru_RU.po
+R	modules/members/po/sr_YU.po
+R	modules/members/po/sv_SE.po
+R	modules/members/po/tr_TR.po
+R	modules/members/templates/MembersItemsHead.tpl
+R	modules/members/templates/MembersListHead.tpl
+R	modules/members/templates/MembersProfileHead.tpl
+R	modules/members/templates/MembersSystemContent.tpl

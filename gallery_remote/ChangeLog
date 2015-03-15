@@ -1,0 +1,1324 @@
+2006-01-16  Pierre-Luc Paour <gallery@paour.com> (1.5.1-b10)
+
+	* Also look for image caption in TAG_USER_COMMENT
+	* Fixed cookie handling for cases where the path contains
+	  a URL-encoded character (such as ~). Thanks acherrington.
+
+2006-01-05  Pierre-Luc Paour <gallery@paour.com> (1.5.1-b9)
+
+	* Japanese translation by Yosuke Suzuki.
+	* Spanish translation by Mikel Pascual Aldabaldetreku.
+
+2005-12-22  Pierre-Luc Paour <gallery@paour.com> (1.5.1-b8)
+
+	* Fixed slideshow threading issues.
+
+2005-12-18  Pierre-Luc Paour <gallery@paour.com> (1.5.1-b7)
+
+	* Explicitly disabling keep-alive for the GR protocol
+	  which could help alleviate sometimes-reported problem
+	  of hanging connections (thanks Valiant).
+
+2005-12-15  Pierre-Luc Paour <gallery@paour.com> (1.5.1-b6)
+
+	* Fixed a bug introduced in b5 which broke the slideshow.
+
+2005-12-13  Pierre-Luc Paour <gallery@paour.com> (1.5.1-b5)
+
+	* More fixes for non-latin galleries (thanks Continental).
+
+2005-12-09  Pierre-Luc Paour <gallery@paour.com> (1.5.1-b4)
+
+	* Fixed another bug with URL loading introduced in b2.
+	* Added IM path detection fallback for Windows systems that
+	  don't have reg.exe (all but XP Pro and Server 2003).
+	* Added 4 and 5Mpix sizes
+	* Added JPEG resize quality parameter to a Gallery profile.
+	  This can't be changed in the preferences, but can be changed
+	  in the GalleryRemote.properties preferences file by adding
+	  resizeJpegQuality.n=q, where n is the profile number and q
+	  is the quality, between 0 and 99.
+
+2005-12-05  Pierre-Luc Paour <gallery@paour.com> (1.5.1-b3)
+
+	* Fixed bug introduced in b2 when loading settings.
+
+2005-12-02  Pierre-Luc Paour <gallery@paour.com> (1.5.1-b2)
+
+	* Added settings to change the font and font size in slideshow.
+	  There is no user-interface to set these, you have to change them
+	  in the GalleryRemote.properties or GalleryRemoteApplet.properties
+	  files.
+	* Downloading the list of albums is slightly more robust.
+	* The thumbs temporary directory is now postfixed with the
+	  current username, so on multiuser systems different users
+	  will be able to use GR concurrently. Thanks mattdm.
+	* Reworked the way defaults and prefs are loaded to they can be more
+	  flexibly overriden by the server, in the case of the applet.
+
+2005-09-23  Pierre-Luc Paour <gallery@paour.com> (1.5.1-b1)
+
+	* Fixed getting album list and creating albums when the names
+	  of albums contain non-ASCII characters (using UTF-8).
+
+2005-09-20  Pierre-Luc Paour <gallery@paour.com> (1.5)
+
+	* Release.
+	* Installer built using IA 7.1, which supports Java 5.
+
+2005-09-20  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b27)
+
+	* With G2, the slideshow now increments the view count on images.
+
+2005-08-26  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b26)
+
+	* Slideshows starting on a specific picture (G2 only) now start
+	  on the right picture, not the next one...
+	* The preload thread for pictures in a slideshow is now running
+	  at a lowered priority, which reduces makes the slideshow more
+	  reponsive.
+	* G2 now has a recursive and limitable slideshow.
+
+2005-08-18  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b25)
+
+	* GR now uploads images and creates albums with UTF-8 when
+	  connected to G2. This fixes improper behavior when using non-ASCII
+	  characters. This only happens if HTML escaping is disabled.
+
+2005-08-06  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b24)
+
+	* GR can now find ImageMagick on its own on Windows, by looking in
+	  the registry. Using a newer version of IM can speed up image
+	  operations by a factor of 2! It is now recommended to
+	  install IM independantly of GR to get this benefit.
+	  This is all the more important for the applet.
+
+2005-07-30  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b23)
+
+	* Now using the new format for the remote controller URL in G2.
+	* G2 now supports album-properties.
+
+2005-07-30  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b22)
+
+	* Fixed setting of titles/summaries with G2.
+
+2005-06-29  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b21)
+
+	* Fixed downloading secured images for slideshow with G2.
+
+2005-05-20  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b20)
+
+	* Added ability to force the Gallery version to avoid problems with
+	  auto-detection of G1 installations when the web server sends back
+	  a bogus 404 message. Just add to your GalleryRemote.properties a line
+	  with forceGalleryVersion.1=[1|2].
+
+2005-05-19  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b19)
+
+	* Added ability for the slideshow to loop.
+	* Fixed GR barfing on non-integer sleep times for slideshow.
+	* Added support for 0 sleep-time: immediate display of next
+	  picture. Thanks to Andy Staudacher for the suggestions.
+
+2005-05-19  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b18)
+
+	* GR now sets user-agent and referer to fetch pictures, to comply
+	  with elevated G2 security when using Block hotlinked items in the
+	  URL Rewrite module.
+
+2005-05-04  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b17)
+
+	* GR and the GR applets are now able to run slideshows of G2
+	  albums.
+	* Slideshows can now start from a picture other than the first.
+	  This is only available in the G2 applet right now.
+	* Added debugging for thoses cases when some preferences are
+	  missing.
+
+2005-05-02  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b16)
+
+	* Added support for slideshows of G2 albums, a prelude to
+	  adding java-based fullscreen slideshows in G2.
+
+2005-04-27  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b15)
+
+	* Added support for an arbitrary number of cookies to be passed
+	  to the applets, with the applet parameters gr_cookie/n/_name
+	  and gr_cookie/n/_value where /n/ starts with 1 and are consecutive.
+
+2005-04-25  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b14)
+
+	* Added support for the applet to force the version of Gallery
+	  it's embedded in, to overcome instances of Apache sending
+	  a 200 error code even though gallery_remote2.php doesn't exist
+	  instead of 404 (in G2).
+
+2005-04-22  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b13)
+
+	* Fixed error message for self-signed cert to point to GR documentation.
+
+2005-03-01  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b12)
+
+	* Should support Mambo-embedded Gallery.
+
+2005-02-28  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b11)
+
+	* Fixed setting proxy info for downloading images already
+	  on server.
+	* Yet another attempt at fixing applet URL logic. Added a
+	  manual gr_url_override applet parameter as a fix
+	  for people whose Gallery URLs hopelessly confuse GR.
+	* Applet jars are signed with the new cert, which expires
+	  in 2007.
+
+2005-01-23  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b10)
+
+	* Fixed mis-caching of files downloaded from the server
+	  (most problematic during a slideshow).
+	* Added Mandarin translation (thanks to Nica Liu).
+
+2005-01-09  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b9)
+
+	* Fixed drop target indication when dropping to the last
+	  item in the list and the list is taller than the window.
+	* When connecting to an HTTPS server that uses a certificate
+	  that is not signed by a trusted root-CA, no longer displaying
+	  alert (the URL in the alert was no longer valid, anyway).
+	* Decode HTML entities in captions for slideshow.
+	* Added a patch by Frode Tviberg that finally fixes Linux DnD.
+	* Added Romanian language support from Dragos Neagu.
+
+2005-01-06  Bharat Mediratta  <bharat@menalto.com> (1.4.2-b8)
+
+	* Added support for passing the browser's User-Agent string into the
+	  applet as a parameter so that the applet can pretend that it is the
+	  same browser when it communicates with the server.
+
+2004-10-18  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b7)
+
+	* More fixes for crop UI.
+
+2004-10-15  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b6)
+
+	* Fixed crop area being cached between different pictures.
+	* Final (hopefully) rework of the sort UI.
+	* Fixed mixup in Gallery aliases when deleting a Gallery URL.
+	* Fixed New Album sorting of existing albums.
+	* Added comments in IM and jpegtran config files to
+	  help users who have to customize them.
+
+2004-09-22  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b5)
+
+	* Changed wording (thanks JPMullan).
+
+2004-09-08  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b4)
+
+	* Redesigned the EXIF manipulation to make it more easily
+	  extensible and faster.
+	* Added the ability to sort pictures in an album by
+	  EXIF creation date (based on a patch by Seth Ladd).
+
+2004-09-07  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b3)
+
+	* Removed File menu on mac: it's empty...
+
+2004-09-03  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b2)
+
+	* Fixed Drag and Drop issues for first-time users.
+
+2004-09-02  Pierre-Luc Paour <gallery@paour.com> (1.4.2-b1)
+
+	* Added Russian translation (thanks Igor).
+
+2004-08-26  Pierre-Luc Paour <gallery@paour.com> (1.4.1)
+
+	* Released.
+
+2004-08-24  Pierre-Luc Paour <gallery@paour.com> (1.4.1-b13)
+
+	* Again fixed cookie parsing bugs in stupid HTTPClient library.
+	* Fixed proxy behavior when a a proxy is set in the Java Plugin
+	  but no HTTP proxy is present.
+	* Added support for G2 installations where 'remote' module is
+	  not active.
+
+2004-08-23  Pierre-Luc Paour <gallery@paour.com> (1.4.1-b12)
+
+	* Fixed basic auth dialog not working properly.
+
+2004-08-20  Pierre-Luc Paour <gallery@paour.com> (1.4.1-b11)
+
+	* Fixed crashing bug for applets under Opera.
+
+2004-08-19  Pierre-Luc Paour <gallery@paour.com> (1.4.1-b10)
+
+	* GR now honors the maximum size for images and uploads
+	  that rather than the intermediate size, if set.
+
+2004-08-17  Pierre-Luc Paour <gallery@paour.com> (1.4.1-b9)
+
+	* Fixed redirect testing after upload in applet.
+
+2004-08-17  Pierre-Luc Paour <gallery@paour.com> (1.4.1-b8)
+
+	* Fixed duplicate root album in New Album dialog on G2.
+
+2004-08-13  Pierre-Luc Paour <gallery@paour.com> (1.4.1-b7)
+
+	* Fixed cookie handling in HTTPClient (fixes losing G2 sessions).
+	* Better detection of G2.
+	* 2_5 handles 2.3 protocol.
+
+2004-08-11  Pierre-Luc Paour <gallery@paour.com> (1.4.1-b6)
+
+	* No redirect for embedded applets.
+
+2004-08-11  Pierre-Luc Paour <gallery@paour.com> (1.4.1-b5)
+
+	* AppletMini now imports OsShutdown dynamically, to prevent
+	  the illegal signature problems.
+
+2004-08-06  Pierre-Luc Paour <gallery@paour.com> (1.4.1-b4)
+
+	* AppletMini doesn't try to refresh album page when it's in G2 mode.
+
+2004-08-04  Pierre-Luc Paour <gallery@paour.com> (1.4.1-b3)
+
+	* Added support for resizing and moving the crop area.
+	* When dropping pics at the end of the list, move to the last item.
+
+2004-08-04  Pierre-Luc Paour <gallery@paour.com> (1.4.1-b2)
+
+	* Fixed bug adding images for first-time users.
+	* GR now retries any requests once if the request failed
+	  without a protocol error message. This will fix the
+	  problems when albums have to be upgraded, and potentially
+	  network errors.
+	* Instead of stopping the upload on error, GR now lists
+	  the errors so far and keeps going.
+	* Transformed all \n to \u000A to fix the problems with
+	  MessagePattern stripping linefeeds.
+
+2004-07-29  Pierre-Luc Paour <gallery@paour.com> (1.4.1-b1)
+
+	* Fixed double-upload to old versions of Gallery.
+	* Fixed not able to select root album in the new album dialog.
+	* Stripping HTML tags in slideshow.
+	* Hiding mouse pointer in slideshow.
+
+2004-07-20  Pierre-Luc Paour <gallery@paour.com> (1.4)
+
+	* Released.
+
+2004-07-20  Pierre-Luc Paour <gallery@paour.com> (1.4-RC2-b2)
+
+	* When connected to G2, no longer offers to create new album.
+	* Removed all references to saving and/or loading state. No longer
+	  building JSX into installers and patches.
+	* Fixed uploading 2 of each picture to G2.
+
+2004-07-12  Pierre-Luc Paour <gallery@paour.com> (1.4-RC2-b1)
+
+	* Fixed hidden album bug in slideshow applet.
+	* Fixed move album to command attempting to move when Cancel is clicked.
+	* Fixed Java resize when thumbnails are present.
+
+2004-07-10  Pierre-Luc Paour <gallery@paour.com> (1.4-RC1)
+
+	* Fixed hidden image bug in slideshow applet.
+
+2004-07-09  Pierre-Luc Paour <gallery@paour.com> (1.4-b17)
+
+	* When the session expires, GR now attempts to login again.
+	* Fixed duplicate extra field
+	* Added a warning when EXIF data is about to be dumped by Java resize
+	* Enabled silent install in the ZeroG installer.
+
+2004-06-24  Pierre-Luc Paour <gallery@paour.com> (1.4-b16)
+
+	* New Album dialog now prevents user from attempting to create
+	  a new album inside an album where the user doesn't have
+	  privileges to do so. Bug 925434.
+
+2004-06-21  Pierre-Luc Paour <gallery@paour.com> (1.4-b15)
+
+	* Improved DE language file (thanks Joerg Napp).
+	* Attempted to fix a bug with urlFull handling in embedded applets.
+
+2004-06-02  Pierre-Luc Paour <gallery@paour.com> (1.4-b14)
+
+	* Resize before upload is now a 1-dimension editable ComboBox
+	  of popular sizes, like Gallery.
+	* Fixed displaying information at the bottom of slideshow.
+	* When constraining to aspect ratio while cropping, now
+	  able to use portrait and landscape of aspect ratio.
+	* Fixed EXIF support to trim spaces.
+
+2004-05-18  Pierre-Luc Paour <gallery@paour.com> (1.4-b13)
+
+	* Added support for non-8bit characters in album and image data.
+	  If GR is running in a non-international system and the default
+	  font used by Java is not able to display the text correctly,
+	  the FONT_OVERRIDE_* properties can force GR to use any system
+	  font.
+	  This only works if the album and image data are encoded by
+	  Gallery in HTML entities (&#xxxx;). When adding albums and
+	  images, it only works if automatic HTML escaping is on.
+	* Added support for running GR in l10n-development mode by setting
+	  uiLocaleDev=true in the prefs. This will load the language files
+	  from img/ so they're easy to modify.
+	* Fixed a problem in the applet where using the applet and then
+	  moving to another tab and coming back would result in the list
+	  of pictures being "Problem...".
+	* Added credits for translators in Locale prefs.
+	* Fixed some bugs when no Gallery profile yet exists.
+
+2004-05-11  Pierre-Luc Paour <gallery@paour.com> (1.4-b12)
+
+	* Fixed failure to resize GIFs in Java.
+
+2004-05-11  Pierre-Luc Paour <gallery@paour.com> (1.4-b11)
+
+	* Fixed NPE when leaving slideshow applet.
+
+2004-05-11  Pierre-Luc Paour <gallery@paour.com> (1.4-b10)
+
+	* Fixed upload (and slideshow) applets when Gallery is embedded in a CMS.
+	* Applets now attempt to use the same language as the Gallery (GR language
+	  support is sorely lacking at the moment).
+	* Cleaned up UI of upload applet, added config parameters for showing
+	  Resize before upload and divider location.
+
+2004-05-07  Pierre-Luc Paour <gallery@paour.com> (1.4-b9)
+
+	* Fixed a slowdown when moving past many pictures in slideshow.
+
+2004-05-07  Pierre-Luc Paour <gallery@paour.com> (1.4-b8)
+
+	* Fixed a runaway thread in slideshow that would lock up
+	  the VM.
+
+2004-05-06  Pierre-Luc Paour <gallery@paour.com> (1.4-b7)
+
+	* Added support for cropping before upload! This is done in
+	  the preview window. For best performance, this needs the
+	  patched version of jpegtran that adds a -crop option for
+	  lessless cropping.
+	* Fixed New Album and Move Album.
+	* Added support for pre-downloading all pictures in slideshow.
+
+	This version is ready to replace 1.3.3 as the default branch
+	Saving is still disabled, though. Be careful.
+	Also on my machine, GR stalls without a message on Linux, both
+	on Blackdown and Sun VMs.
+
+2004-04-28  Pierre-Luc Paour <gallery@paour.com> (1.4-b6)
+
+	* Added GeekLog support.
+	* Fixed updating the album tree after creating an album.
+	* Slideshow: better feedback when manually moving to another picture.
+	* Slideshow: fixed picture-switching delay being incorrect after manually
+	  moving to another picture.
+	* New preference to override background color for slideshow and preview.
+	* Slideshow: new method for painting information on top of image, text no longer
+	  moves.
+	* Slideshow: new controller display, similar to iPhoto, with help.
+
+2004-04-21  Pierre-Luc Paour <gallery@paour.com> (1.4-b5)
+
+	* Added support for Gallery aliases, to use as a handle instead of the
+	  Gallery URL in the GR UI.
+	* Implemented slideshow preference to not stretch small images in
+	  preview and slideshow.
+	* Fixed local slideshow broken in 1.4-b3.
+	* Fixed one syntax incompatibility for Java 1.5.
+
+2004-04-20  Pierre-Luc Paour <gallery@paour.com> (1.4-b4)
+
+	* Added German translation, by Hubert Baumgartner (extremely incomplete).
+
+2004-04-20  Pierre-Luc Paour <gallery@paour.com> (1.4-b3)
+
+	* When ImageMagick is not available, resize before upload
+	  uses Java 1.4 ImageIO to resize the image. This might cause
+	  OutOfMemoryErrors in some cases; I'm trying to reproduce.
+	  It also causes the EXIF information to be lost. I'm trying to find
+	  a way to fix this, but the ImageIO classes (java 1.4) are pretty
+	  broken.
+	* Disabled Save and Open until we know how we're going
+	  to handle saving and loading.
+	* Merged changes from 1.3 branch.
+	* Applets now work even if Gallery is in (unsupported)
+	  relative mode (album and gallery URLs are relative)
+	* Allowing ImageMagick and Jpegtran settings to be overriden
+	  in the general settings (beware, the format of these files has
+	  consequently changed).
+
+2004-03-18  Pierre-Luc Paour <gallery@paour.com> (1.4-b2)
+
+	* Integrated Marc Pawliger's patch that reads the default
+	  caption from IPTC or EXIF.
+	* Disabled saving state (the menus are still there) because
+	  state saving crashes.
+	* Initial implementation of G2 interoperability. On the GR side,
+	  the only change is that it changes some of the URL parameter names
+	  to fit the GR theme: g2_form[name]=value. Also, GR senses
+	  if a given install is a G1 or a G2 with the remote module and
+	  uses the right URL.
+
+2004-02-26  Pierre-Luc Paour <gallery@paour.com> (1.4-b1)
+
+	* Attempt to make the tree render correctly by moving to
+	  DefaultTreeModel and DefaultMutableTreeNodes. This is still
+	  unsuccessful and I need help.
+	* Diabled Protocol 1, since it's incompatible with sophisticated
+	  tree handling.
+	* Much improved model classes, through a major refactoring.
+
+	Some functionality broken, DO NOT USE THIS VERSION, stay on BRANCH_GR_1_3
+
+2004-04-15  Pierre-Luc Paour <gallery@paour.com> (1.3.2-b11)
+
+	* No longer resizing up (upsampling) images that are smaller than
+	  the album maximum size on upload.
+
+2004-04-12  Pierre-Luc Paour <gallery@paour.com> (1.3.2-b10)
+
+	* Parentheses are invalid in album names.
+	* GR now honors hidden images and read permissions for albums.
+
+2004-03-25  Pierre-Luc Paour <gallery@paour.com> (1.3.2-b9)
+
+	* On Java 1.4.2 and later, reading proxy from Java plugin in
+	  applet mode.
+
+2004-03-15  Pierre-Luc Paour <gallery@paour.com> (1.3.2-b8)
+
+	* Fixed a bug in the applet uploader, where added pictures were
+	  not shown.
+	* From this version on, the applets are signed with a certificate
+	  authenticated by Thawte.
+
+	This is considered a final candidate for GR 1.3.2.
+
+2004-02-27  Pierre-Luc Paour <gallery@paour.com> (1.3.2-b7)
+
+	* Added support for Basic auth username and password embedded in
+	  URL, such as http://user:pass@server/path/. This is obviously
+	  an insecure way of storing passwords. Thanks to Mindstorm for
+	  letting me test on his server.
+	* Fixed a bunch of niggles with the Auth dialog.
+	* Added flushing of the JTree when adding a new
+	  album. It's better than fetching the albums again from the server
+	  but it loses album state. I spent two days trying to debug this
+	  but I can't crack this problem of the JTree not refreshing.
+	  Help needed!
+
+2004-02-25  Pierre-Luc Paour <gallery@paour.com> (1.3.2-b6)
+
+	* Solved a very long-standing problem where I didn't know how
+	  to get the albums tree to draw correctly when adding images
+	  (the album name would be truncated).
+	* When adding an album, no longer refreshing the list of albums
+	  (this makes it faster and doesn't lose the album tree's
+	  disclosure status)
+	* When downloading pictures from the server, flush any previously
+	  downloaded pictures first.
+	* Made fetching list of albums from the server slightly faster
+	  by disabling events during the download, so the window is
+	  only refreshed when the download completes.
+	* Fixed a bug in GRI18n where quote characters in strings that
+	  are subjected to pattern-matching to replace some of the text at
+	  runtime would cause the pattern-matching algorithm to barf.
+	  Also created a cache for patterns.
+
+2004-02-25  Pierre-Luc Paour <gallery@paour.com> (1.3.2-b5)
+
+	* Updated French translation by Alex Lemaresquier.
+	* Added debugging info to trace bug where adding pictures via
+	  Browse... doesn't work but DnD'ing them does.
+
+2004-02-23  Pierre-Luc Paour <gallery@paour.com> (1.3.2-b4)
+
+	* Fixed Linux tree display error. Thanks to "herk" for
+	  finding the problem. The album tree no longer has a horizontal
+	  scrollbar, but uses tooltips. The tooltips only appear if
+	  part of the name is obscured, ala Windows Tree Control.
+
+2004-02-18  Pierre-Luc Paour <gallery@paour.com> (1.3.2-b3)
+
+	* Another try at fixing that Swing error. I now think that this
+	  is tied to Swing's attempt to use Windows XP themes. I'm now
+	  using a property that should disable this buggy behavior.
+
+2004-02-18  Pierre-Luc Paour <gallery@paour.com> (1.3.2-b2)
+
+	* Catching a wierd VM bug that causes many users not to be able
+	  to upload. This bug is I believe caused by the 1.4.2_03-b2 VM.
+
+2004-02-17  Pierre-Luc Paour <gallery@paour.com> (1.3.2-b1)
+
+	* Albums are now sorted alphabetically when using the latest
+	  protocol.
+	* Added a new launcher in the IA project for debug, which
+	  sets the output to a console.
+	* When IA console is set, the Log will automatically be sent
+	  to stdout. This is to make it easier to have users send
+	  in bug reports that include exceptions.
+
+2004-02-12  Pierre-Luc Paour <gallery@paour.com> (1.3.1)
+
+	* Re-release...
+
+2004-02-12  Pierre-Luc Paour <gallery@paour.com> (1.3.1-b3)
+
+	* Slideshow button is disabled when ther are no pictures to show.
+	* This is also the case in the slideshow applet, and an alert is
+	  displayed.
+
+2004-02-12  Pierre-Luc Paour <gallery@paour.com> (1.3.1-b2)
+
+	* Fixed slideshow on the Mac (the top of the image was
+	  obscured by the menu bar). I can't figure out why the Mac VM
+	  will not go into full-screen mode...
+	* Fixed a potential VM killer bug with going into slideshow
+	  mode. This was a Safari-crashing bug on Mac.
+
+2004-02-12  Pierre-Luc Paour <gallery@paour.com> (1.3.1-b1)
+
+	* Fixed text color in list and tree when selected.
+	* State is clean after an upload attemps (since state
+	  was saved to the default location).
+	* Fixed bug where loading a state with no pictures in it
+	  would make the UI disabled.
+
+	Thanks to Robert Harlow for these.
+
+2004-02-11  Pierre-Luc Paour <gallery@paour.com> (1.3)
+
+	* Fixed moving album to root of Gallery.
+	* Changed log file name to GalleryRemoteLog.txt and updated the
+	  docs to reflect the change of name and location.
+
+	Release!
+
+2004-02-10  Pierre-Luc Paour <gallery@paour.com> (1.3-b29)
+
+	* Added support for flushing caches. This is useful when uploading
+	  from a removable media where the picture names may be the same.
+	* Added support for limiting the number of images in a slideshow,
+	  similar to the javascript version. Also for disabling recursion.
+
+2004-02-09  Pierre-Luc Paour <gallery@paour.com> (1.3-b28)
+
+	* Fixed yet another concurrency problem in slideshow, when using
+	  both manual and automatic slide changes.
+	* Fixed caption not being outlined. Saldy, this means the caption
+	  is not HTML capable and single-line only.
+
+2004-02-04  Pierre-Luc Paour <gallery@paour.com> (1.3-b27)
+
+	* GR now requires Java 1.4 or later, too many things are unsupported
+	  on 1.3 and all OSes have 1.4 VMs.
+	* Disabled some album properties and added a note regarding the
+	  fact that these properties are read-only for now.
+	* Added random option to slideshow.
+	* Changed font sizes on Mac applet so it fits the dimensions.
+	  The applet still crashes Safari though. I've submitted a bug
+	  report to Apple.
+	* Added French (Christophe Lallement) and Catalan (sergidsca)
+	  translations.
+	* I consider this build to be 1.3-RC1, and I hope to have a final
+	  release of 1.3 along with G 1.4.2 final.
+
+2004-01-29  Pierre-Luc Paour <gallery@paour.com> (1.3-b26)
+
+	* Added pretty nasty hack to reload the album page in Mini applet
+	  mode after upload completes.
+	* Applet Maxi working again (I broke it a couple of builds ago).
+
+2004-01-29  Pierre-Luc Paour <gallery@paour.com> (1.3-b25)
+
+	* Made Log re-entrant, so that when Applet is restarted within
+	  the same VM, the log can keep going.
+	* Slideshow applet now pre-fetches the first picture for a faster
+	  start.
+
+2004-01-29  Pierre-Luc Paour <gallery@paour.com> (1.3-b24)
+
+	* Recursive slideshows.
+	* Added protocol support for getting sub-albums as well as pictures
+	  when fetching list of pictures in an album.
+	* Fixed bugs in upload applet, which was completely broken in b23.
+
+2004-01-27  Pierre-Luc Paour <gallery@paour.com> (1.3-b23)
+
+	* All and any property can be overriden by Applet parameters.
+	* Slideshow applet now has preferences.
+
+2004-01-26  Pierre-Luc Paour <gallery@paour.com> (1.3-b22)
+
+	* Fixed slideshow causing exception on platforms capable
+	  of using full-screen but where some manager decides to forbid
+	  it...
+	* Add pictures dialog now allows users to select whole folders
+	  (thanks Terje).
+	* AppletMini no longer downloads the list of albums (faster).
+
+2004-01-23  Pierre-Luc Paour <gallery@paour.com> (1.3-b21)
+
+	* More refactoring to improve startup sequence for the applets.
+	* Slideshow applet now doesn't doawload the list of albums, which
+	  was wrong in the first place because it would only show writable
+	  albums.
+
+2004-01-25  M. Scott Gartner <sgartner@pingbot.com> (1.3-b20)
+
+    * Fixed the dates on the January 2004 entries to be 2004.
+    * Fixed a NPE in CoreUtils, getListCellRendererComponent() when the
+      album list has no currently selected item.
+    * Changed to allow user to save state before logout.
+    * Restored code in logout to clear the dirty flag (for some reason
+      this code was lost in version 1.3-b19).
+	* Changed to set dirty flag when a picture's order is changed (picture
+      is moved).
+    * Changed to set dirty flag when a picture is moved or deleted from
+      the PictureInspector panel.
+
+2004-01-22  Pierre-Luc Paour <gallery@paour.com> (1.3-b19)
+
+	* Fixed file loading behavior: GR now logs into each Gallery
+	  that it was previously logged into, and displays better
+	  feedback.
+	* Fixed NPEs when logging out and closing dirty but unsaved
+	  files.
+	* Added slideshow applet
+	* More refactoring to support the new applet. The Applet code
+	  is now modular and duplication-free.
+
+2004-01-20  Pierre-Luc Paour <gallery@paour.com> (1.3-b18)
+
+	* Fixed some threading problems in slideshow.
+	* Implemented preference to download the lowrez version
+	  of an image in slideshow.
+	* i18n of applet.
+	* Fixed problems when two applets are running concurrently
+
+2004-01-16  Pierre-Luc Paour <gallery@paour.com> (1.3-b17)
+
+	* More refactoring to make the mini applet more modular.
+	  Shaved 100KB+ from the total applet weight.
+
+2004-01-15  Pierre-Luc Paour <gallery@paour.com> (1.3-b16)
+
+	* MASSIVE refactoring to make GR more modular to prepare
+	  for the various applet versions.
+	* Changed log location from working directory to temp dir.
+	* Added a mini applet that only contains a list of files
+	  and buttons to add pictures and upload.
+
+2004-01-13  Pierre-Luc Paour <gallery@paour.com> (1.3-b15)
+
+	* Detect even more screwed up album hierarchies and
+	  display an alert to suggest a fix.
+
+2004-01-11  Pierre-Luc Paour <gallery@paour.com> (1.3-b14)
+
+	* Fixed adding album into root album: extra album would appear
+	  in the GR tree.
+	* Reverted to previous version of ImageMagick from Windows:
+	  the version 1.2 shipped with caused many problems, because
+	  it's harder to use in pseudo-installed mode.
+	* Added support to move an album into another album, catching
+	  up to protocol support that was added a while ago by Muti.
+	* Slideshow is functional, added preference panel to set it up.
+	  It still needs to be refined, but is complete enough for initial
+	  feedback.
+
+2003-12-29  Pierre-Luc Paour <gallery@paour.com> (1.3-b13)
+
+	* Reorganized the Mac build so that jpegtran.properties and
+	  im.properties are readily editable in the application
+	  bundle, similar to the Windows version.
+	* Fixed Mac release URL in auto build system.
+	* These changes forward-ported from 1.2.1-b6
+
+2003-12-28  Pierre-Luc Paour <gallery@paour.com> (1.3-b12)
+
+	* MacOS Build now finds jpegtran even if application is renamed.
+	* Deployment scripts now create Mac patch (same as the release version)
+	  and version checker displays link to new Mac version on Mac.
+
+2003-12-27  Pierre-Luc Paour <gallery@paour.com> (1.3-b11)
+
+	* Merged changes from 1.2.1, mostly MacOS changes.
+
+2003-12-17  Pierre-Luc Paour <gallery@paour.com> (1.3-b10)
+
+	* Up and down arrow in the picture list once again selects the prev/next
+	  picture, and makes sure it's visible.
+
+2003-12-18  M. Scott Gartner <sgartner@pingbot.com> (1.3-b9)
+
+    * Expanded Load/Save with Most Recently Used files remembered
+    * We now load the last edited file (if the property to that effect is set)
+      and this feature is on by default.
+    * We now allow you to specify how many MRU files to show in the file menu
+    * All of these new properties are on a new panel in the properties dialog
+    * The title reflects whether the currently loaded file needs to be saved
+      (by putting an asterisk '*' next to the file name).  We now update this
+      asterisk more consistently.
+
+2003-12-08  Pierre-Luc Paour <gallery@paour.com> (1.3-b8)
+
+	* Load/save improvements by Scott Gartner.
+	* Made it possible to run GR (in much-degraded mode) with no libraries
+	  and no icons, with java -jar GalleryRemote.jar
+	* Fixed StackOverflow with corrupted Galleries that caused GR to hang while
+	  logging in.
+	* Initial support for client-side or applet slideshow.
+	* Pruned .java files from JSX library, making it lighter and resolving a
+	  conflict with recent versions of IntelliJ.
+
+2003-12-03  Pierre-Luc Paour <gallery@paour.com> (1.3-b7)
+
+	* Merged changes from the recently released GR 1.2.
+
+2003-11-20  Pierre-Luc Paour <gallery@paour.com> (1.3-b6)
+
+	* Refined the file saving UI, adding Save As and Close, as well as updating
+	  the window title to reflect whether state has been updated and not saved
+	  and save file name. These changes were created by Scott Gartner.
+
+2003-11-18  Pierre-Luc Paour <gallery@paour.com> (1.3-b5)
+
+	* Changed GRI18n to make it a static class and simplified all the classes using
+	  GRI18n.
+	* Finalized Album tree and Album inspector (although changing album settings
+	  is not implemented because protocol support is not yet ready).
+	* Implemented drag and drop of pictures to the album tree.
+	* Implemented preview of pictures already on server. This will also be used for
+	  the slideshow mode.
+
+2003-11-14  Pierre-Luc Paour <gallery@paour.com> (1.3-b4)
+
+	* Changed default URL for PHPNuke (removed the /nuke path, thanks ozgreg).
+	* Implemented fetching images already on server. Right now, other than looking at
+	  the thumbnails, you can't really do anything with them.
+	* Many infrastructure changes to support this.
+
+2003-11-13  Pierre-Luc Paour <gallery@paour.com> (1.3-b3)
+
+	* Fixed a problem with loading state. Saved states from pervious versions can
+	  NOT be loaded, no error dialog is shown, a big exception is dumped to the log.
+	* Fixed logging out of a Gallery.
+	* Made albums with content bold in the JTree.
+	* Inspectors are now scrollable for small trees.
+	* Thanks to Scott Gartner for these suggestions (and others).
+
+2003-11-13  Pierre-Luc Paour <gallery@paour.com> (1.3-b2)
+
+	* Implemented drag-and-drop on Albums. Moving pictures from one album to another
+	  is finally very easy.
+	* Finished hooking up the UI in the AlbumInspector. Downloading pictures
+	  from the server and updating album settings is not yet implemented.
+	* Set default button for each dialog, so hitting Enter is the same as
+	  clicking OK.
+
+2003-11-11  Pierre-Luc Paour <gallery@paour.com> (1.3-b1)
+
+	* Albums are now displayed as a tree control
+	* Album Inspector added (not yet fully functionnal)
+	* this is a preliminary release
+
+2003-12-17  Pierre-Luc Paour <gallery@paour.com> (1.2.1-b4)
+
+	* Now building jpegtran in Mac version, hard-coded ImageMagick
+	  path to /usr/local/bin on Mac.
+	* Fixed invoking external apps on Mac
+	* Fixed loading default image when it's in a jar (for Mac).
+	* Upgraded to JarBundler 0.3, which I extended to add support
+	  for bundling executables.
+	* Fixed BrowserLauncher to correctly detect Panther.
+	* The Mac version is now fully functional!
+
+2003-12-17  Pierre-Luc Paour <gallery@paour.com> (1.2.1-b3)
+
+	* Added alerts when ImageMagick or jpegtran are unavailable.
+	* No longer showing rotate arrows when jpegtran is unavailable.
+
+2003-12-16  Pierre-Luc Paour <gallery@paour.com> (1.2.1-b2)
+
+	* Fixed Mac version: Native Mac build now works, uses screen menu bar
+	  (not window menu bar), uses Command instead of Control for
+	  accelerators, uses brushed metal appearance.
+	* Pruned .java files from JSX library, making it lighter and resolving a
+	  conflict with recent versions of IntelliJ.
+
+2003-12-09  Pierre-Luc Paour <gallery@paour.com> (1.2.1-b1)
+
+	* Some apps wouldn't let you drag and drop pictures to GR. This is now fixed
+	  and DnD should work from Canon Zoombrowser, Photoshop Album and probably
+	  also Linux file managers. No thanks to an article in JavaWorld that
+	  had bad code for DnD. Thanks to Jeff "logullo" for testing many debug
+	  builds for me.
+
+2003-11-25  Pierre-Luc Paour <gallery@paour.com> (1.2)
+
+	* Release
+	* Fixed the usual Java 1.3 bug.
+
+2003-11-09  Pierre-Luc Paour <gallery@paour.com> (1.2-b15)
+
+	* Fixed jpegtran execution on platforms other than Win32 (bad command line)
+	* Added more debug when executing external commands (now prints stdout and stderr
+	  from external command to log).
+	* For Mac build, added im.properties and jpegtran.properties to img.jar
+	  so Mac app can be completely self-contained.
+	* thanks to Amedeo Paglione for suggesting above fixes.
+
+>>>>>>> 1.72.2.6
+2003-11-06  Pierre-Luc Paour <gallery@paour.com> (1.2-b14)
+
+	* Almost complete rewrite of drag and drop code, fixing all the known bugs
+	* Implemented cut-copy-paste for the list of pictures, so pictures can
+	  now at long last be moved between albums (before upload)!
+	* Fixed the QuickConfig preference not updating the other preference panels.
+	  The fix is to close the preference dialog after QuickConfig is used, to
+	  prevent conflicts.
+
+2003-11-03  Pierre-Luc Paour <gallery@paour.com> (1.2-b13)
+
+	* Better memory management for thumbnails and previews. Memory errors
+	  should be rarer, and thumbnail/preview generation should be quicker.
+	* Added button to sort files alphabetically in an album.
+	* GR should now find jpegtran and ImageMagick in that if they are
+	  available in the PATH on non-Windows platforms. Added a long-winded
+	  warning at the tail-end of the installer about how to install them.
+
+2003-10-30  Pierre-Luc Paour <gallery@paour.com> (1.2-b12)
+
+	* Added warning when logging out or quitting and pictures are left in
+	  a gallery, so no data is lost.
+	* Updated bundled ImageMagick (windows only) to 5.5.7, added lib needed
+	  for PNG images.
+	* Fixed URL preferences getting lost.
+	* Added disambiguation when 2 URLs for the same Gallery, but with different
+	  usernames are present.
+	* Fixed Quick Config losing the gallery type.
+
+2003-10-09  Pierre-Luc Paour <gallery@paour.com> (1.2-b11)
+
+	* Implemented patching mechanism for LAX file when the classpath
+	  needs to be changed.
+	* Build process can now update Menalto.com with the latest build information
+	  so automated daily builds are automatically propagated. Also now pushing
+	  beta builds to jpmullan.com.
+	* Cosmetic changes to the Log class.
+
+2003-10-06  Amedeo Paglione <apaglione@mac.com> (1.2-b10)
+
+	* Adoption of more generic locale
+	* Optimized the procedure for locale loading
+
+2003-10-02  Pierre-Luc Paour <gallery@paour.com> (1.2-b9)
+
+	* Better display for languages in the prefs dialog.
+	* Changed from using a Java 1.4-only method to a standard method.
+	  This was causing GR not to start under 1.3 VMs.
+
+2003-09-30  Amedeo Paglione <apaglione@mac.com> (1.2-b8)
+
+	* Implemented list of available locale resources.
+
+2003-09-30  Pierre-Luc Paour <gallery@paour.com> (1.2-b7)
+
+	* Implemented UI in Preferences/General to select the locale
+	  among the available locales.
+
+2003-09-29  Amedeo Paglione <apaglione@mac.com> (1.2-b6)
+
+	* Internationalized all strings in GR. English and Italian versions
+	  available.
+
+2003-09-27  Pierre-Luc Paour <gallery@paour.com> (1.2-b5)
+
+	* After images are removed from the list, another image is selected.
+	  This has been a long-standing irritant...
+	* Moving more than one picture up or down is now possible.
+	* Suppressing auto-rotation on the server when the user manually
+	  rotates the image or GR rotates it based on the EXIF data.
+
+2003-09-25  Pierre-Luc Paour <gallery@paour.com> (1.2-b4)
+
+	* Implemented auto-rotate based on EXIF tag, if present. Now I need
+	  protocol support to disable auto-rotate in the server when
+	  uploading.
+	* Implemented shutdown on upload completion. Thanks to Nick77.
+
+2003-09-22  Pierre-Luc Paour <gallery@paour.com> (1.2-b3)
+
+	* Fixed PHPNuke default URLs (thanks docmattman).
+	* When a read-only album is selected, drag-and-drop is not allowed
+	  and the Add Pictures... button is disabled.
+	* When creating a new album, select the album in the popup rather
+	  than the first root album (only with G 1.4.1-b75 and later,
+	  remote protocol 2.5).
+	* Forcing file name on uploaded files to original filename, rather
+	  than the temp file used when resizing and/or rotating (only with
+	  G 1.4.1-b75 and later, remote protocol 2.5).
+
+2003-09-21  Pierre-Luc Paour <gallery@paour.com> (1.2-b2)
+
+	* Implemented PHPNuke support (thanks docmattman).
+
+2003-09-20  Pierre-Luc Paour <gallery@paour.com> (1.2-b1)
+
+	* Integrated patch by Markus Cozowicz to provide feedback during long
+	  uploads. Thanks Markus!
+	* Created a new modal progress dialog for uploads. It shows much
+	  more info, and is cancelable. The normal progress bar has been
+	  improved to be less fickle when two things happen at the same
+	  time.
+	* Optionally ignore the return code of spawned applications. This is
+	  to work around what I think is a Java VM bug on Linux where the
+	  return code is wrong.
+	* Amedeo Paglione started work on i18n. A simple framework is in place
+	  and he's starting to externalize all UI strings.
+
+2003-09-12  Pierre-Luc Paour <gallery@paour.com> (1.1)
+
+	* Shipped GR 1.1
+
+2003-09-06  Pierre-Luc Paour <gallery@paour.com> (1.1-RC1-b1)
+
+	* Fixed incompatibility with Java 1.3: I was trying to catch an exception
+	  that Java 1.3 doesn't know about, so the class was not even loadable.
+	* GR is now built for the Mac differently than for other architectures.
+	  MacOS enjoys something akin to the "French Exception". Or in this case
+	  the Italian exception, since this was led by Amedeo Paglione.
+
+2003-08-22  Pierre-Luc Paour <gallery@paour.com> (1.1-RC1)
+
+	* Catching error when using SSL with an untrusted server
+	  certificate.
+
+2003-07-26  Pierre-Luc Paour <gallery@paour.com> (1.1-b14)
+
+	* Added keyboard handling so when the user is editing captions
+	  and extra fields, the tab and up/down arrows do the expected and
+	  useful thing (thanks joel558).
+
+2003-07-19  Pierre-Luc Paour <gallery@paour.com> (1.1-b13)
+
+	* Added a jpegQuality field to the ImageMagick settings.
+	* Better handling of null username or password.
+	* Clearing cookies when Log out is clicked, so it's possible
+	  to log in with different credentials without having to restart GR.
+
+2003-07-01  Pierre-Luc Paour <gallery@paour.com> (1.1-b12)
+
+	* Uses a shutdown handler on Mac for those folks who use Cmd-Q to quit.
+	  Mac integration is sorely lacking. I need a Mac guy to help out.
+
+2003-06-26  Pierre-Luc Paour <gallery@paour.com> (1.1-b11)
+
+	* Fixed losing field values when more than one extrafield is used
+	  (thanks Joel)
+	* Filtering out extrafields "Upload Date" and "Capture Date", which
+	  are not editable (thanks Joel).
+	* Temporarily building jpegtran in the zip patches until it's in the
+	  installer.
+
+2003-06-26  Pierre-Luc Paour <gallery@paour.com> (1.1-b10)
+
+	* Added ability for QuickConfig to handle gallery URLs (you need
+	  to use url.99, or any other set of parameters as long as the
+	  parameter ends in .99. This can be used to very easily add a
+	  Gallery URL to GR, especially useful for CMS.
+	* If username and/or password are not set, GalleryComm2 asks for
+	  them. This is necessary for when passwords are not saved.
+	* An empty Gallery object is no longer created when none have been
+	  declared.
+
+2003-06-26  Pierre-Luc Paour <gallery@paour.com> (1.1-b9)
+
+	* Implemented extra fields in UI and protocol.
+	* New prefs panel: Quick Config, to help newbies set their
+	  configuration to match the prefs of your gallery. This is me
+	  pursuing my own agenda :-)
+
+2003-06-25  Pierre-Luc Paour <gallery@paour.com> (1.1-b8)
+
+	* Implemented a new way to communicate with the server for getting
+	  the list of albums, which is much more efficient because only
+	  writable albums and their parents are sent, and because the server
+	  does less work. This should fix one of the causes for socket exceptions
+	  because listing the albums takes less time.
+	* Since this new format is also hierarchical, this also paves the way for
+	  an album tree component rather than a flat list (no implementation yet).
+	* Fixed preview frame popping up before main frame.
+
+2003-06-17  Pierre-Luc Paour <gallery@paour.com> (1.1-b7)
+
+	* Fixed rotation combined with flipping, fixed losing EXIF.
+	* Picture added using the Browse button now appended to the
+	  list instead of prepending them.
+
+2003-06-16  Pierre-Luc Paour <gallery@paour.com> (1.1-b6)
+
+	* Implemented rotate-before-upload based on jpegtran.
+
+2003-06-16  Pierre-Luc Paour <gallery@paour.com> (1.1-b5)
+
+	* Truncating long URLs in UI to make it nicer when CMS URLs are
+	  used.
+	* Added UI for rotating pictures before upload. Actual rotation
+	  of pictures not implemented yet: only thumbnails.
+	* Added icons on most buttons and menu items.
+
+2003-06-13  Pierre-Luc Paour <gallery@paour.com> (1.1-b4)
+
+	* Reorganized event handling and data modeling for more
+	  simplicity and robustness. Phewww...
+	* Fixed creating top-level albums in some cases.
+	* Fixed logging out.
+	* Can now create a first album when no Album is available.
+	* Removed the Username and password fields in MainFrame.
+	* Preferences can be invoked in such a way that it jumps
+	  to a panel immediately.
+	* Fixed losing caption when selecting more than one picture.
+	* Fixed drag-n-dropping folders.
+	* Unhacked list selection.
+	* Modified HTTPConnection so it can be instanciated on Java 1.3
+	  even though https is not supported.
+
+2003-06-12  Pierre-Luc Paour <gallery@paour.com> (1.1-b3)
+
+	* Preference property names are now constants in PreferenceNames rather
+	  than just text litterals.
+	* Added proxy support in the preferences.
+	* Explicit HTTPS support (see the ReadMe).
+	* Optionally strips the extension when using filename for caption.
+
+2003-06-04  Pierre-Luc Paour <gallery@paour.com> (1.1-b2)
+
+	* Added Upload, URLs, Proxy prefs panel.
+	* Time in the logs is now in ms since application launch.
+	* Sorted preferences files, for better readability.
+	* Now pre-loading thumbnails and accurate file size when opening
+	  saved state.
+	* Reworked the Gallery class for more consistency and robustness.
+	* Proxy panel is not yet functional.
+	* Logging on to a PostNuke-embedded Gallery fails (I need help with this).
+	* Fixed dialog centering code.
+
+2003-05-08  Pierre-Luc Paour <gallery@paour.com> (1.1-b1)
+
+	* Added first embryo of a preferences dialog.
+
+2003-06-18  Pierre-Luc Paour <gallery@paour.com> (1.0.1)
+
+	* No changes from RC1.
+	* Non-Win32 builds get ImageMagick directory with instructions
+	  on how to set it up.
+
+2003-05-28  Pierre-Luc Paour <gallery@paour.com> (1.0.1-RC1)
+
+	* No changes from b6.
+	* No longer building 'run' batch scripts: running GR is now only
+	  with the native InstallAnywhere launcher or ant.
+
+2003-05-25  Pierre-Luc Paour <gallery@paour.com> (1.0.1-b6)
+
+	* When an auth error occurs, made the error message more informative.
+
+2003-05-09  Pierre-Luc Paour <gallery@paour.com> (1.0.1-b5)
+
+	* No changes, just updated the automated build system to build the 1.0.x
+	  branch rather than the new 1.1.x branch.
+
+2003-05-06  Pierre-Luc Paour <gallery@paour.com> (1.0.1-b4)
+
+	* Improved stability of upload when IM is not installed.
+	* Optionally HTML-escaping captions and titles during upload.
+	* Display captions in the picture list.
+	* Save and load ready to upload albums (and save a backup before
+	  uploading, in case of a problem).
+	* Fixed a problem with uploading pictures to Gallery when the
+	  Gallery's 'debug' flag was set.
+	* Reformatted many source files using IdeaJ.
+
+2003-02-02  Pierre-Luc Paour <gallery@paour.com> (1.0.1-b3)
+
+	* Integrated Stanley Knutson's patch to handle Basic Auth
+	  HTTP security. Thanks Stanley!
+	* GR no longer checks the version before actual login.
+
+2002-12-15  Pierre-Luc Paour <gallery@paour.com> (1.0.1-b2)
+
+	* Fixed selecting "Gallery main page" in the New Album dialog.
+
+2002-12-14  Pierre-Luc Paour <gallery@paour.com> (1.0.1-b1)
+
+	* Fixed dropping files when thumbnails are off.
+	* Fixed application closing problem.
+
+2002-11-11  Pierre-Luc Paour <gallery@paour.com> (1.0)
+
+	* Changed icons and about box (thanks to Ross A. Reyman)
+	* Made the 'Log in' button a flip-flop to 'Log out'
+	* When adding a new album, pictures that were added to the list
+	  of pictures to upload are no longer forgotten.
+
+2002-11-10  Pierre-Luc Paour <gallery@paour.com> (1.0-b12)
+
+	* Added protocol auto-detection.
+
+2002-11-02 Tim Miller <tim_miller@users.sourceforge.net> (1.0-b11)
+
+	* Added support for the "new-album" command to GalleryComm2.
+	* Corrected a small path problem in ImageUtils.
+	* Bumped GalleryComm2 protocol version to 2.1.
+	* Added client UI support for creating new albums.
+	  The corresponding protocol support is not yet ready
+	  so the button will remain disabled.
+	* Added resizeToDefault property for resizing before upload with
+	  protocol 1 and using default album size with protocol 2.
+
+2002-10-19  Pierre-Luc Paour <gallery@paour.com> (1.0-b10)
+
+	* Fixed adding a Gallery (broken in b9).
+	* Added undetermined progress bar to Fetch Albums.
+
+2002-10-11 Tim Miller <tim_miller@users.sourceforge.net> (1.0-b9)
+
+	* NOTE: GR CAN BE RUN IN GR PROTO 2 MODE BY CHANGING THE
+	  protocolVersion IN THE PROPERTIES FILE.
+	  THIS WILL ALL PAN OUT WITH THE NEXT CHECKIN -- GR WILL DYNAMICALLY
+	  BIND TO THE NEWEST SERVER PROTOCOL. FOR NOW, CAVEAT EMPTOR.
+	* Made GalleryComm and interface, moved GalleryComm implementation to
+	  GalleryComm1.java.
+	* Created GalleryComm2.java, based on GalleryComm1.java to implement
+	  version 2 of the GR protocol.
+	* Moved status interaction between GalleryComm classes and MainFrame
+	  to an interface (StatusUpdate).
+	* Created a Swing-style adapter for StatusUpdate (StatusUpdateAdapter).
+	* Changed several classes to use the URL type instead of passing URLs
+	  around as Strings.
+	* Added ability in PictureInspector to edit picture comments (since this is
+	  supported in version 2 of the protocol).
+	* Added permission support to the Album model object.
+	* Added support for Albums actually being in a tree (this is supported
+	  by proto version 2.
+	* Updated Gallery Remote proto version 2 document to describe
+	  user permission attributes (read, write, change, delete) on
+	  Album objects.
+	* paour: Added support for resizing images based on server autoResize
+	  size (only with protocol 2)
+	* paour: now logging out when username or password field is edited
+	* paour: if setCaptionWithFilename property is enabled, captions
+	  will use the image filename by default.
+
+2002-10-03  Pierre-Luc Paour <gallery@paour.com> (1.0-b8)
+
+	* Fixed another Java 1.3 bug where the Album combo box was not working
+
+2002-10-01  Pierre-Luc Paour <gallery@paour.com> (1.0-b7)
+
+	* Added image resize before upload (this requires ImageMagick and can be enabled by
+		changing the variables resizeTo and resizeBeforeUpload in
+		GalleryRemote.properties.
+	* Added automatic update notification for betas, too. Beta builds will come with
+		this enabled. Release builds will only check for new releases, unless
+		otherwise specified.
+
+2002-09-22  Pierre-Luc Paour <gallery@paour.com> (1.0-b6)
+
+	* Added multi-album upload! Add pictures to different albums and click Upload
+		Albums.
+	* Almost complete rewrite of GalleryComm. Maybe it will be more robust, maybe
+		more broken.
+	* The preferences file is now called GalleryRemote.properties and resides in GalleryRemote
+		in the home directory. This should fix problems with preferences not being saved
+		but it means users will have to either copy the preferences file over themselves
+		or recreate their preferences.
+	* The file input dialog now accepts more types of media.
+	* Fixed bug 612281: redirects needed two clicks.
+	* Fixed bug 521237: non-unique album titles would confuse the Albums combo-box.
+
+2002-09-17  Pierre-Luc Paour <gallery@paour.com> (1.0-b5)
+
+	* Corrected problems on JDK 1.3 with url combo box
+	* Added more logging for communications, in order to help detect comm problems.
+
+2002-09-09  Pierre-Luc Paour <gallery@paour.com> (1.0-b4, released as 1.0 preview)
+
+	* Added a new version check at launch
+	* Added readme
+
+2002-09-02  Pierre-Luc Paour <gallery@paour.com> (1.0-b3)
+
+	* Added multi-selection support to the PictureInspector. Fixed buttons.
+	* Switched to an Ant-based build system
+	* Fixed inspector state when deleting pictures
+	* Now saving multiple profiles for different Galleries (use the URL combo box)
+
+2002-09-01  Pierre-Luc Paour <gallery@paour.com> (1.0-b2)
+
+	* Now optionally using ImageMagick to load thumbnails and preview, for a 5x speedup
+	  and better memory management. In the future, we'll use IM to also
+	  offer client-side resize and rotate.
+
+2002-08-18  Pierre-Luc Paour <gallery@paour.com> (1.0-b1)
+
+	* Reorganized storage of list of files to upload in preparation for XML serialization
+	* Reorganized preferences storage in preparation for preferences dialog
+	* Rewrote main frame UI for flexibility and robustness
+	* Now also saving password to preferences file (should be made customizable)
+	* Added unix make and run shell scripts
+
+2002-08-06  Pierre-Luc Paour <gallery@paour.com> (0.4-b2)
+
+	* Fixed bug 523219: protocol is no longer needed in gallery URL
+	* Fixed thumbnail loading when using the options menu to enable or disable thumbnails
+
+2002-07-30  Pierre-Luc Paour <gallery@paour.com> (0.4-b1)
+
+	* Renewed development of Gallery Remote!
+
+	* Added:
+		- preview window (enabled/disabled by showpreview property)
+		- thumbnails in the list (enabled disabled by showthumbnails property)
+		- asynchronous loading of preview and thumbnails
+		- saving of most preferences (window positions/sizes)
+		- selectable thumbnails size (thumbnailwidth, thumbnailheight
+		properties)
+		- reorderable list (buttons and left-right arrows)
+		- deletable list (button and delete/backspace)
+		- options menu (contributed by Dolan Halbrook)
+		- disabling Drag&Drop while uploading; reorganized top frame (Dolan Halbrook)
+
+2001-11-21  Chris Smith <chris@jacko.com> (0.3)
+
+	* v0.3 ships!
+
+2001-11-20  Chris Smith <chris@jacko.com> (0.3-b2)
+
+	* App now remembers the last used Gallery URL, username and password.
+
+	* Bug fixes:
+		- Trailing slash no longer required on Gallery URL.
+		- Fixed race condtion where if login took too long the ui
+		  thread would think that the upload was done and reset the
+		  file list before the upload thread got a chance to upload.
+		- Fetching Albums more than once will no longer append to the
+		  existing list.
+
+2001-11-14  Chris Smith <chris@jacko.com> (0.3-b1)
+
+	* Renamed package and main class from GalleryUp to GalleryRemote.
+
+2001-11-12  Chris Smith <chris@jacko.com> (0.2)
+
+	* v0.2 - The first release of Gallery Remote.

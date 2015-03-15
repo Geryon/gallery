@@ -1,0 +1,58 @@
+2005-12-20  Dariush Molavi  <dari@nukedgallery.net> 
+	* New: Added user profile MODification (Thanks PilotSpike).
+
+2005-12-01  Dariush Molavi  <dari@nukedgallery.net> 
+	* Fix: Removed extra closing paren in foreach statement.
+
+2005-11-30  Dariush Molavi  <dari@nukedgallery.net>
+	* Fix: Moved Gallery's CSS and javascript to overall_header.tpl
+	  (Scott Gregory).  This should fix the funky font issues.
+
+2005-11-29  Dariush Molavi  <dari@nukedgallery.net>
+	* Update: Added notices in Readme regarding integrated rewrites and 
+	  suggested Gallery 2 installation locations.
+
+2005-11-28  Dariush Molavi  <dari@nukedgallery.net>
+    * Fix: Broken delete user code in g2helper.inc (J. Mike Rollins)
+	* Update: Modified code listing failed user exports (websnail)
+
+2005-11-07  Dariush Molavi  <dari@nukedgallery.net>
+	* Change: Remove notice about SQL table name, since 
+	  we create the table.
+
+2005-11-03  Dariush Molavi  <dari@nukedgallery.net> 
+	* Fix: Broken G2 image in Readme.html
+	* New: g2helper.inc class (J. Mike Rollins)
+	* New: User update/delete and password changes 
+	  now supported (J. Mike Rollins)
+	* New: Addition ACP features (J. Mike Rollins)
+
+2005-09-30  Dariush Molavi  <dari@nukedgallery.net>
+	* Change: Got the CSS in Readme to work as required.
+	  Props to thumb for the fix.
+	* Change: Readme is now valid XHTML 1.0.
+
+2005-09-28  Dariush Molavi  <dari@nukedgallery.net>
+	* Change: Update to Readme.html with new CSS.
+	* Change: Update to Readme.html to G2 Final.
+	* Fix: Typo in Readme.html.
+
+2005-09-26  Dariush Molavi  <dari@nukedgallery.net>
+	* Change: Updated Readme.html with information on correct 
+	  path for Forum Index link.
+
+2005-09-16  Dariush Molavi  <dari@nukedgallery.net>
+	* Change: Added customized BreadCrumb.tpl which adds link 
+	  back to forum index in the breadcrumb trail.
+
+2005-09-08  Dariush Molavi  <dari@nukedgallery.net> 
+	* Fix: Forgot to include the gallery image for 
+	  navigation menu. 
+
+2005-08-30  Dariush Molavi  <dari@nukedgallery.net>
+	* New: Added group sync to admin control panel.  
+	  New users are *not* added to their groups 
+	  yet, that will be next. 
+
+2005-08-25  Dariush Molavi  <dari@nukedgallery.net>
+	* New: First commit of phpBB2 integration code.

@@ -1,0 +1,74 @@
+# File crc32 crc32(crlf) size size(crlf)  or  R File
+modules/useralbum/UserAlbum.inc	2522258079	4191402556	3245	3350
+modules/useralbum/UserAlbumSiteAdmin.inc	3162824756	862645827	4372	4504
+modules/useralbum/classes/UserAlbumHelper.class	2630376074	3918468142	3910	4048
+modules/useralbum/locale/bg/LC_MESSAGES/modules_useralbum.mo	3482378156	3482378156	2201	2201
+modules/useralbum/locale/cs/LC_MESSAGES/modules_useralbum.mo	1353267443	1353267443	2130	2130
+modules/useralbum/locale/de/LC_MESSAGES/modules_useralbum.mo	421847015	421847015	2035	2035
+modules/useralbum/locale/fr/LC_MESSAGES/modules_useralbum.mo	785307429	785307429	2048	2048
+modules/useralbum/locale/hu/LC_MESSAGES/modules_useralbum.mo	1071438383	1071438383	2098	2098
+modules/useralbum/locale/is/LC_MESSAGES/modules_useralbum.mo	1165866409	1165866409	420	420
+modules/useralbum/locale/it/LC_MESSAGES/modules_useralbum.mo	945938345	945938345	1998	1998
+modules/useralbum/locale/ja/LC_MESSAGES/modules_useralbum.mo	1394542014	1394542014	2115	2115
+modules/useralbum/locale/nl/LC_MESSAGES/modules_useralbum.mo	1150228493	1150228493	1969	1969
+modules/useralbum/locale/no/LC_MESSAGES/modules_useralbum.mo	1276928517	1276928517	1867	1867
+modules/useralbum/locale/pl/LC_MESSAGES/modules_useralbum.mo	1210711144	1210711144	2174	2174
+modules/useralbum/locale/ru/LC_MESSAGES/modules_useralbum.mo	4209603186	4209603186	2688	2688
+modules/useralbum/locale/sr/LC_MESSAGES/modules_useralbum.mo	2143048343	2143048343	1979	1979
+modules/useralbum/locale/sv/LC_MESSAGES/modules_useralbum.mo	3610930883	3610930883	2073	2073
+modules/useralbum/locale/tr/LC_MESSAGES/modules_useralbum.mo	3924376379	3924376379	2071	2071
+modules/useralbum/locale/zh_CN/LC_MESSAGES/modules_useralbum.mo	1852418095	1852418095	1927	1927
+modules/useralbum/locale/zh_TW/LC_MESSAGES/modules_useralbum.mo	2534721658	2534721658	1902	1902
+modules/useralbum/module.inc	4290364746	2350478703	6778	6994
+modules/useralbum/po/GNUmakefile	1866879166	2808215985	98	103
+modules/useralbum/po/bg.po	1837619797	1226759291	3122	3232
+modules/useralbum/po/cs.po	3871684478	1464649757	2935	3045
+modules/useralbum/po/de.po	3334091610	782746405	2967	3077
+modules/useralbum/po/fr.po	2995945361	2801877460	2838	2944
+modules/useralbum/po/hu.po	263565435	3128690467	2884	2989
+modules/useralbum/po/is.po	1882239117	323854546	2200	2304
+modules/useralbum/po/it.po	327505352	1488896127	2784	2889
+modules/useralbum/po/ja.po	3782337680	3956646305	2898	3002
+modules/useralbum/po/nl.po	3646870139	699805139	2843	2950
+modules/useralbum/po/no.po	859935231	3243935926	2657	2763
+modules/useralbum/po/pl.po	3251624278	3546107906	2965	3071
+modules/useralbum/po/ru.po	4189854444	1655402787	3587	3695
+modules/useralbum/po/sr.po	1599294825	660732232	2763	2869
+modules/useralbum/po/strings.raw	2161129113	3779877274	956	987
+modules/useralbum/po/sv.po	4293436593	1388069561	3016	3130
+modules/useralbum/po/tr.po	3903148284	355288710	3000	3109
+modules/useralbum/po/zh_CN.po	207126541	1264641107	2718	2823
+modules/useralbum/po/zh_TW.po	1226837317	1229931403	2694	2800
+modules/useralbum/templates/UserAlbumSiteAdmin.tpl	284024890	3922660637	2779	2855
+modules/useralbum/test/phpunit/UserAlbumControllerTest.class	3212045398	1940780331	10254	10553
+modules/useralbum/test/phpunit/UserAlbumSiteAdminControllerTest.class	3453491227	3657906508	3601	3710
+modules/useralbum/test/phpunit/UserAlbumTest.class	2952818900	1070900626	10634	10951
+R	modules/useralbum/locale/bg_BG/LC_MESSAGES/modules_useralbum.mo
+R	modules/useralbum/locale/cs_CZ/LC_MESSAGES/modules_useralbum.mo
+R	modules/useralbum/locale/de_DE/LC_MESSAGES/modules_useralbum.mo
+R	modules/useralbum/locale/fr_FR/LC_MESSAGES/modules_useralbum.mo
+R	modules/useralbum/locale/is_IS/LC_MESSAGES/modules_useralbum.mo
+R	modules/useralbum/locale/it_IT/LC_MESSAGES/modules_useralbum.mo
+R	modules/useralbum/locale/ja_JP/LC_MESSAGES/modules_useralbum.mo
+R	modules/useralbum/locale/nl_NL/LC_MESSAGES/modules_useralbum.mo
+R	modules/useralbum/locale/no_NO/LC_MESSAGES/modules_useralbum.mo
+R	modules/useralbum/locale/pl_PL/LC_MESSAGES/modules_useralbum.mo
+R	modules/useralbum/locale/ru_RU/LC_MESSAGES/modules_useralbum.mo
+R	modules/useralbum/locale/sr_YU/LC_MESSAGES/modules_useralbum.mo
+R	modules/useralbum/locale/sv_SE/LC_MESSAGES/modules_useralbum.mo
+R	modules/useralbum/locale/tr_TR/LC_MESSAGES/modules_useralbum.mo
+R	modules/useralbum/po/bg_BG.po
+R	modules/useralbum/po/cs_CZ.po
+R	modules/useralbum/po/de_DE.po
+R	modules/useralbum/po/fr_FR.po
+R	modules/useralbum/po/is_IS.po
+R	modules/useralbum/po/it_IT.po
+R	modules/useralbum/po/ja_JP.po
+R	modules/useralbum/po/nl_NL.po
+R	modules/useralbum/po/no_NO.po
+R	modules/useralbum/po/pl_PL.po
+R	modules/useralbum/po/ru_RU.po
+R	modules/useralbum/po/sr_YU.po
+R	modules/useralbum/po/sv_SE.po
+R	modules/useralbum/po/tr_TR.po
+R	modules/useralbum/templates/SiteAdmin.tpl

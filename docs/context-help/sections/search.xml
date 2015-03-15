@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- $Id: search.xml 4918 2003-12-10 03:27:19Z alindeman $ -->
+
+<item id="search">
+ <title>Search</title>
+
+ <para>
+  Searching allows you to search for albums and pictures, just like a search
+  engine.  Wildcards (i.e. an astrick) are allowed, and the search is
+  case-insensitive.
+ </para>
+</item>
+  

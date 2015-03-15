@@ -1,0 +1,84 @@
+Version 0.6.13 - 2006/02/05
+----------------------------------
+- Changes for Gallery 2.1 (GalleryEmbed::init and Core API 7,0 changes)
+- The Login event handler works again. If you need to login users in G2
+  when they login in xaraya e.g. because you show non-public G2 images
+  in your xaraya articles, but don't use the image block for this purpose,
+  then just uncomment the onUserLogin handler in xareventapi.php.
+
+Version 0.6.12 - 2005/10/06
+----------------------------------
+CSS works now again. xaraya still doesn't offer what we need, but I'm "hacking" xaraya
+by injecting CSS links in the <head> section by using the "add javascript" method.
+
+Version 0.6.11 - 2005/09/19
+----------------------------------
+Including the G2 theme.css again, G2 URL rewrite doesn't work anymore 
+(related to CSS issues) when embedded
+
+Version 0.6.10 - 2005/07/15
+----------------------------------
+Sidebar inside / block switch works again (thanks to bharat)
+
+2005/07/07
+----------------------------------
+Trying a hack to get the progress bars get to work
+(e.g. site admin -> maintenance -> Build thumbs / resizes)
+Before handling the request, xaraya's output buffers are stored and ended,
+after the G2 request handling, the ob are restored (unless the G2 request
+said it isDone, i.e. already outputted some data).
+
+Version 0.6.9 - 2005/06/28
+----------------------------------
+Removed requirement to be in embedded mode during module configuration
+Doing a xaraya version dependency check again
+Improved the upgrade code
+
+Version 0.6.8 - 2005/06/27
+----------------------------------
+Fix: Added xarGallery2Helper::xarServerGetBaseURI()
+
+Version 0.6.7 - 2005/06/23
+----------------------------------
+Fix: Make loginRedirect an absolute URL. Before, the loginredirect pointed
+to standalone G2.
+
+Version 0.6.6 - 2005/06/23
+----------------------------------
+Fix: Disabled the short url support of the xaraya module as it obviously did not work 
+     since we changed from path_info to mod_rewrite in G2. 
+     You can still use short G2 urls (G2 module Url Rewrite) when embedded in xaraya!
+     True xaraya short url support may be back in one of the next releases.
+
+Version 0.6.5 - 2005/06/13
+----------------------------------
+- Changed the logout function to comply with the newest changes in G2
+
+Version 0.6.4 - 2005/05/26
+----------------------------------
+- disabled pending user deletion in user synchronization code (doesn't work in 
+  multisite G2 installs)
+- tested G2 multisite+rewrite+embed+java-tools, it works all at once!
+
+2005/05/21
+----------------------------------
+- Small internal change, (init/done calls)
+
+Version 0.6.3 - 2005/05/13
+----------------------------------
+- Fixed a few bugs
+- Postgres is now supported (xaraya 1.0 rc2, G2 0.9.16)
+
+Version 0.6.2 - 2005/04/20
+----------------------------------
+- Reflect the GalleryEmbed::parseHead change for javascript
+- Reverse the order of the css stylesheets (it was wrong before).
+- Announcement: postgresql G2/xaraya will be supported in xaraya 0.9.14
+
+Version 0.6.1 - 2005/03/21
+----------------------------------
+- Purge/Recall/Delete role in xaraya are now synchronized to G2 thanks to a
+  bugfix in xaraya.
+  Note: Delete role in xaraya will delete a G2 user directly. You cannot recall
+        users in G2, so recall of the same user in xaraya, will create a new user
+        in G2.

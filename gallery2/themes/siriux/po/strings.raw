@@ -1,0 +1,25 @@
+# $Id: strings.raw 12677 2006-01-20 19:07:47Z mindless $
+
+/* theme.inc */
+gettext("Siriux")
+gettext("Siriux.net Gallery theme")
+gettext("Width of page content in pixels")
+gettext("You must enter a number")
+
+/* templates/album.tpl */
+gettext("This album is empty.")
+gettext("Add a photo!")
+gettext("no thumbnail")
+gettext("%d Images")
+
+/* templates/error.tpl */
+gettext("Error!")
+
+/* templates/photo.tpl */
+gettext("Download %s")
+gettext("There is nothing to view for this item.")
+gettext("Download %s in original format")
+gettext("(%dx%d)")
+
+/* templates/progressbar.tpl */
+gettext("Continue...")

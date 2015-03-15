@@ -1,0 +1,104 @@
+# File crc32 crc32(crlf) size size(crlf)  or  R File
+modules/cart/AddToCart.inc	1469033510	2431157722	2348	2431
+modules/cart/Callbacks.inc	3677780057	1258737141	1801	1859
+modules/cart/ModifyCart.inc	3935630026	2931592536	4434	4597
+modules/cart/ViewCart.inc	3868010752	3114962926	5430	5607
+modules/cart/classes/CartHelper.class	237159044	4052630260	4581	4758
+modules/cart/classes/CartPluginInterface_1_0.class	43980190	3339892632	2306	2376
+modules/cart/locale/bg/LC_MESSAGES/modules_cart.mo	2108722214	2108722214	2325	2325
+modules/cart/locale/cs/LC_MESSAGES/modules_cart.mo	2642186527	2642186527	2267	2267
+modules/cart/locale/da/LC_MESSAGES/modules_cart.mo	2536107154	2536107154	2137	2137
+modules/cart/locale/de/LC_MESSAGES/modules_cart.mo	2642084119	2642084119	2305	2305
+modules/cart/locale/es/LC_MESSAGES/modules_cart.mo	3552344904	3552344904	2242	2242
+modules/cart/locale/eu/LC_MESSAGES/modules_cart.mo	53601899	53601899	2093	2093
+modules/cart/locale/fr/LC_MESSAGES/modules_cart.mo	143583883	143583883	2268	2268
+modules/cart/locale/ga/LC_MESSAGES/modules_cart.mo	2462159360	2462159360	2176	2176
+modules/cart/locale/hu/LC_MESSAGES/modules_cart.mo	4062910233	4062910233	1800	1800
+modules/cart/locale/is/LC_MESSAGES/modules_cart.mo	215258399	215258399	454	454
+modules/cart/locale/it/LC_MESSAGES/modules_cart.mo	667389765	667389765	2298	2298
+modules/cart/locale/ja/LC_MESSAGES/modules_cart.mo	2553226266	2553226266	2367	2367
+modules/cart/locale/nl/LC_MESSAGES/modules_cart.mo	1573194249	1573194249	2178	2178
+modules/cart/locale/no/LC_MESSAGES/modules_cart.mo	68185023	68185023	2205	2205
+modules/cart/locale/pt_BR/LC_MESSAGES/modules_cart.mo	2755095627	2755095627	1592	1592
+modules/cart/locale/ru/LC_MESSAGES/modules_cart.mo	3428137792	3428137792	3256	3256
+modules/cart/locale/sr/LC_MESSAGES/modules_cart.mo	3534684880	3534684880	2124	2124
+modules/cart/locale/sv/LC_MESSAGES/modules_cart.mo	948356587	948356587	2192	2192
+modules/cart/locale/tr/LC_MESSAGES/modules_cart.mo	1782356699	1782356699	2072	2072
+modules/cart/locale/vi/LC_MESSAGES/modules_cart.mo	937608332	937608332	2252	2252
+modules/cart/locale/zh_CN/LC_MESSAGES/modules_cart.mo	693210951	693210951	1790	1790
+modules/cart/locale/zh_TW/LC_MESSAGES/modules_cart.mo	2304977842	2304977842	2119	2119
+modules/cart/module.inc	881776072	4167387470	4493	4653
+modules/cart/po/GNUmakefile	1866879166	2808215985	98	103
+modules/cart/po/bg.po	2604857940	3211685679	3347	3475
+modules/cart/po/cs.po	4150579221	3932018634	3113	3236
+modules/cart/po/da.po	2725223027	2002814439	3023	3144
+modules/cart/po/de.po	1874708259	702957102	3321	3448
+modules/cart/po/es.po	177128149	3672555529	3245	3369
+modules/cart/po/eu.po	3549622717	3502508093	2984	3107
+modules/cart/po/fr.po	2779090141	4272678871	3104	3226
+modules/cart/po/ga.po	2787074969	2001811549	3994	4141
+modules/cart/po/hu.po	4146713294	1541088380	3029	3152
+modules/cart/po/is.po	2255701719	817136647	2419	2538
+modules/cart/po/it.po	3384077111	3846001400	3238	3361
+modules/cart/po/ja.po	1348194555	2545480848	3200	3321
+modules/cart/po/nl.po	1035744757	1698985157	3105	3230
+modules/cart/po/no.po	3998609480	2078952148	3105	3230
+modules/cart/po/pt_BR.po	3429956488	2450506408	3014	3140
+modules/cart/po/ru.po	960651288	365270969	4217	4343
+modules/cart/po/sr.po	3977000064	2064151622	3009	3131
+modules/cart/po/strings.raw	3788827001	2323326843	1021	1060
+modules/cart/po/sv.po	1733780199	1230779369	3424	3556
+modules/cart/po/tr.po	132922523	2708244156	3144	3271
+modules/cart/po/vi.po	3484756720	2747292222	3133	3253
+modules/cart/po/zh_CN.po	1092770038	2426345887	2993	3115
+modules/cart/po/zh_TW.po	3129713102	3911629427	2934	3051
+modules/cart/templates/ViewCart.tpl	1730453434	561157110	3233	3329
+modules/cart/templates/blocks/ShowCart.tpl	304876428	3278764134	681	697
+modules/cart/templates/blocks/blocks.inc	3724706265	4029515079	109	114
+modules/cart/test/phpunit/AddToCartControllerTest.class	3813371279	3707177578	10503	10823
+modules/cart/test/phpunit/CartHelperTest.class	921031711	2014864376	6955	7188
+modules/cart/test/phpunit/ModifyCartControllerTest.class	1542869518	1845601107	3806	3932
+R	modules/cart/classes/CartMap.class
+R	modules/cart/classes/GNUmakefile
+R	modules/cart/classes/GalleryStorage
+R	modules/cart/classes/interfaces
+R	modules/cart/locale/bg_BG/LC_MESSAGES/modules_cart.mo
+R	modules/cart/locale/cs_CZ/LC_MESSAGES/modules_cart.mo
+R	modules/cart/locale/da_DK/LC_MESSAGES/modules_cart.mo
+R	modules/cart/locale/de_DE/LC_MESSAGES/modules_cart.mo
+R	modules/cart/locale/es_ES/LC_MESSAGES/modules_cart.mo
+R	modules/cart/locale/eu_ES/LC_MESSAGES/modules_cart.mo
+R	modules/cart/locale/fr_FR/LC_MESSAGES/modules_cart.mo
+R	modules/cart/locale/ga_IE/LC_MESSAGES/modules_cart.mo
+R	modules/cart/locale/hu_HU/LC_MESSAGES/modules_cart.mo
+R	modules/cart/locale/is_IS/LC_MESSAGES/modules_cart.mo
+R	modules/cart/locale/it_IT/LC_MESSAGES/modules_cart.mo
+R	modules/cart/locale/ja_JP/LC_MESSAGES/modules_cart.mo
+R	modules/cart/locale/nl_NL/LC_MESSAGES/modules_cart.mo
+R	modules/cart/locale/no_NO/LC_MESSAGES/modules_cart.mo
+R	modules/cart/locale/ru_RU/LC_MESSAGES/modules_cart.mo
+R	modules/cart/locale/sr_YU/LC_MESSAGES/modules_cart.mo
+R	modules/cart/locale/sv_SE/LC_MESSAGES/modules_cart.mo
+R	modules/cart/locale/tr_TR/LC_MESSAGES/modules_cart.mo
+R	modules/cart/locale/vi_VN/LC_MESSAGES/modules_cart.mo
+R	modules/cart/po/bg_BG.po
+R	modules/cart/po/cs_CZ.po
+R	modules/cart/po/da_DK.po
+R	modules/cart/po/de_DE.po
+R	modules/cart/po/es_ES.po
+R	modules/cart/po/eu_ES.po
+R	modules/cart/po/fr_FR.po
+R	modules/cart/po/ga_IE.po
+R	modules/cart/po/hu_HU.po
+R	modules/cart/po/is_IS.po
+R	modules/cart/po/it_IT.po
+R	modules/cart/po/ja_JP.po
+R	modules/cart/po/nl_NL.po
+R	modules/cart/po/no_NO.po
+R	modules/cart/po/ru_RU.po
+R	modules/cart/po/sr_YU.po
+R	modules/cart/po/sv_SE.po
+R	modules/cart/po/tr_TR.po
+R	modules/cart/po/vi_VN.po
+R	modules/cart/templates/CartSystemContent.tpl
+R	modules/cart/templates/ViewCartHead.tpl

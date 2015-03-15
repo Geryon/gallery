@@ -1,0 +1,77 @@
+# File crc32 crc32(crlf) size size(crlf)  or  R File
+modules/sizelimit/SetSizeOption.inc	1570040636	631498951	3809	3924
+modules/sizelimit/SizeLimitOption.inc	3017213643	3767166245	11535	11875
+modules/sizelimit/classes/SizeLimitHelper.class	1739184863	951998186	5423	5608
+modules/sizelimit/locale/cs/LC_MESSAGES/modules_sizelimit.mo	3130432160	3130432160	2255	2255
+modules/sizelimit/locale/da/LC_MESSAGES/modules_sizelimit.mo	4129923743	4129923743	1593	1593
+modules/sizelimit/locale/de/LC_MESSAGES/modules_sizelimit.mo	13408607	13408607	2259	2259
+modules/sizelimit/locale/eu/LC_MESSAGES/modules_sizelimit.mo	4077599615	4077599615	1523	1523
+modules/sizelimit/locale/fr/LC_MESSAGES/modules_sizelimit.mo	3976835372	3976835372	2173	2173
+modules/sizelimit/locale/hu/LC_MESSAGES/modules_sizelimit.mo	1637402991	1637402991	1261	1261
+modules/sizelimit/locale/is/LC_MESSAGES/modules_sizelimit.mo	3644049198	3644049198	419	419
+modules/sizelimit/locale/it/LC_MESSAGES/modules_sizelimit.mo	3180138029	3180138029	2237	2237
+modules/sizelimit/locale/ja/LC_MESSAGES/modules_sizelimit.mo	3894894256	3894894256	1230	1230
+modules/sizelimit/locale/nl/LC_MESSAGES/modules_sizelimit.mo	1422772047	1422772047	2188	2188
+modules/sizelimit/locale/no/LC_MESSAGES/modules_sizelimit.mo	3352361403	3352361403	1449	1449
+modules/sizelimit/locale/ru/LC_MESSAGES/modules_sizelimit.mo	1325273003	1325273003	2980	2980
+modules/sizelimit/locale/sr/LC_MESSAGES/modules_sizelimit.mo	3655964520	3655964520	1570	1570
+modules/sizelimit/locale/sv/LC_MESSAGES/modules_sizelimit.mo	1392558062	1392558062	1660	1660
+modules/sizelimit/locale/tr/LC_MESSAGES/modules_sizelimit.mo	3261299189	3261299189	1595	1595
+modules/sizelimit/locale/zh_CN/LC_MESSAGES/modules_sizelimit.mo	971546678	971546678	1297	1297
+modules/sizelimit/locale/zh_TW/LC_MESSAGES/modules_sizelimit.mo	1902177045	1902177045	2009	2009
+modules/sizelimit/module.inc	3305695226	800276553	3430	3538
+modules/sizelimit/po/GNUmakefile	1866879166	2808215985	98	103
+modules/sizelimit/po/cs.po	1950382636	3091705291	3096	3185
+modules/sizelimit/po/da.po	1545573244	3403154791	3060	3153
+modules/sizelimit/po/de.po	2654666989	4152932797	3424	3519
+modules/sizelimit/po/eu.po	3724390698	3292661188	2846	2933
+modules/sizelimit/po/fr.po	2149485959	656895431	3163	3253
+modules/sizelimit/po/hu.po	864863591	4252561336	2592	2676
+modules/sizelimit/po/is.po	1237956459	3188885314	2238	2321
+modules/sizelimit/po/it.po	2771408	2394769066	3053	3137
+modules/sizelimit/po/ja.po	1876488516	2250769875	2566	2649
+modules/sizelimit/po/nl.po	3845242384	2979953699	3102	3190
+modules/sizelimit/po/no.po	3459034832	3047643502	2751	2836
+modules/sizelimit/po/ru.po	3090885859	2824483748	4174	4271
+modules/sizelimit/po/sr.po	2005641921	1349389892	2917	3007
+modules/sizelimit/po/strings.raw	1255025045	2680621732	1200	1227
+modules/sizelimit/po/sv.po	3316579201	742947833	3248	3347
+modules/sizelimit/po/tr.po	2951834766	2485478609	3097	3192
+modules/sizelimit/po/zh_CN.po	452950798	638580393	2592	2677
+modules/sizelimit/po/zh_TW.po	2641939088	2907118075	2836	2920
+modules/sizelimit/templates/SizeLimitOption.tpl	1796755747	442950398	4673	4777
+modules/sizelimit/test/phpunit/EventHandlerTest.class	3748686963	2760935127	2718	2797
+modules/sizelimit/test/phpunit/SetSizeOptionTest.class	2044632291	3384241049	31305	32150
+modules/sizelimit/test/phpunit/SizeLimitHelperTest.class	360492538	1526210688	9216	9491
+modules/sizelimit/test/phpunit/SizeLimitOptionTest.class	2152233160	2137755810	13906	14302
+R	modules/sizelimit/locale/cs_CZ/LC_MESSAGES/modules_sizelimit.mo
+R	modules/sizelimit/locale/da_DK/LC_MESSAGES/modules_sizelimit.mo
+R	modules/sizelimit/locale/de_DE/LC_MESSAGES/modules_sizelimit.mo
+R	modules/sizelimit/locale/eu_ES/LC_MESSAGES/modules_sizelimit.mo
+R	modules/sizelimit/locale/fr_FR/LC_MESSAGES/modules_sizelimit.mo
+R	modules/sizelimit/locale/hu_HU/LC_MESSAGES/modules_sizelimit.mo
+R	modules/sizelimit/locale/is_IS/LC_MESSAGES/modules_sizelimit.mo
+R	modules/sizelimit/locale/it_IT/LC_MESSAGES/modules_sizelimit.mo
+R	modules/sizelimit/locale/ja_JP/LC_MESSAGES/modules_sizelimit.mo
+R	modules/sizelimit/locale/nl_NL/LC_MESSAGES/modules_sizelimit.mo
+R	modules/sizelimit/locale/no_NO/LC_MESSAGES/modules_sizelimit.mo
+R	modules/sizelimit/locale/ru_RU/LC_MESSAGES/modules_sizelimit.mo
+R	modules/sizelimit/locale/sr_YU/LC_MESSAGES/modules_sizelimit.mo
+R	modules/sizelimit/locale/sv_SE/LC_MESSAGES/modules_sizelimit.mo
+R	modules/sizelimit/locale/tr_TR/LC_MESSAGES/modules_sizelimit.mo
+R	modules/sizelimit/po/cs_CZ.po
+R	modules/sizelimit/po/da_DK.po
+R	modules/sizelimit/po/de_DE.po
+R	modules/sizelimit/po/eu_ES.po
+R	modules/sizelimit/po/fr_FR.po
+R	modules/sizelimit/po/hu_HU.po
+R	modules/sizelimit/po/is_IS.po
+R	modules/sizelimit/po/it_IT.po
+R	modules/sizelimit/po/ja_JP.po
+R	modules/sizelimit/po/nl_NL.po
+R	modules/sizelimit/po/no_NO.po
+R	modules/sizelimit/po/ru_RU.po
+R	modules/sizelimit/po/sr_YU.po
+R	modules/sizelimit/po/sv_SE.po
+R	modules/sizelimit/po/tr_TR.po
+R	modules/sizelimit/test/phpunit/AddPhotoOptionTest.class
